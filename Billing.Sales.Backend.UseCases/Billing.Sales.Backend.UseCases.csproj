@@ -14,10 +14,4 @@
     <ProjectReference Include="..\Billing.Sales.Backend.BusinessObjects\Billing.Sales.Backend.BusinessObjects.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="OrderDetailInteractor\" />
-    <Folder Include="OrderInteractor\" />
-    <Folder Include="ProductInteractor\" />
-  </ItemGroup>
-
 </Project>

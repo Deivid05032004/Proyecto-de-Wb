@@ -1,7 +1,6 @@
-﻿
-using Billing.Sales.Backend.BusinessObjects.Interfaces.Products;
+﻿using Billing.Sales.Backend.BusinessObjects.Interfaces.Products;
 
-namespace Billing.Sales.Backend.UseCases.CustoerInteractor
+namespace Billing.Sales.Backend.UseCases.ProductInteractor
 {
     public class CreateProductInteractor(IProductOuputPort ouputPort, ICommandsProductRepository repository) : IProductInputPort
     {

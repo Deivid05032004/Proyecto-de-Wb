@@ -3,6 +3,7 @@
 using Billing.Sales.Backend.BusinessObjects.Interfaces.Orders;
 using Billing.Sales.Backend.BusinessObjects.Interfaces.Products;
 using Billing.Sales.Backend.UseCases.CustoerInteractor;
+using Billing.Sales.Backend.UseCases.ProductInteractor;
 using Microsoft.Extensions.DependencyInjection;
 using System.Runtime.CompilerServices;
 
