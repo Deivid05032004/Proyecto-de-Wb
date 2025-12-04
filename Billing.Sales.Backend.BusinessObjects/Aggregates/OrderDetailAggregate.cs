@@ -26,4 +26,11 @@ public class OrderDetailAggregate : OrderDetail
             Quantity = entity.Quantity
         };
     }
+    public void UpdateFrom(CreateOrderDetailsDto dto)
+    {
+        ProductId = dto.ProductId;
+        UnitPrice = (decimal)dto.SalePrice;
+        Quantity = dto.Quantity;
+    }
+
 }

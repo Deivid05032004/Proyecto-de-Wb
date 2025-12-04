@@ -1,8 +1,10 @@
 ﻿
 
+using Billing.Sales.Backend.Repositories.Interfaces.CustomerCommand;
+
 namespace Billing.Sales.Backend.Repositories.Repositories
 {
-    public class CustomerCommandsRepository(IBillingSalesCommandDataContext context) : ICommandsCustomerRepository
+    public class CustomerCommandsRepository(ICustomerBillingSalesCommandDataContext context) : ICommandsCustomerRepository
     {
         public async Task CreateCustomer(CustomerAggregate customer)
         {
@@ -33,7 +35,7 @@ namespace Billing.Sales.Backend.Repositories.Repositories
 
         public async Task SaveChanges()
         {
-            await context.SaveChangesAsync();
+            await context.SavesChangesAsync();
         }
 
         public async Task UpdateCustomer(CustomerAggregate customer)

@@ -2,9 +2,12 @@
 
 
 
+using Billing.Sales.Backend.Repositories.Interfaces.OrderCommand;
+using Billing.Sales.Backend.Repositories.Interfaces.OrderDetailCommand;
+
 namespace Billing.Sales.Backend.Repositories.Repositories
 {
-    public class OrderDetailCommandsRepository(IBillingSalesCommandDataContext context) : ICommandsOrderDetailsRepository
+    public class OrderDetailCommandsRepository(IOrderDetailBillingSalesCommandDataContext context) : ICommandsOrderDetailsRepository
     {
         public async Task CreateOrderDetail(OrderDetailAggregate orderDetail)
         {
@@ -31,7 +34,7 @@ namespace Billing.Sales.Backend.Repositories.Repositories
 
         public async Task SaveChanges()
         {
-            await context.SaveChangesAsync();
+            await context.SavesChangesAsync();
         }
 
         public async Task UpdateOrderDetail(OrderDetailAggregate orderDetail)

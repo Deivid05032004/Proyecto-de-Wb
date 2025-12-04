@@ -1,7 +1,9 @@
 ﻿
+using Billing.Sales.Backend.Repositories.Interfaces.OrderCommand;
+
 namespace Billing.Sales.Backend.Repositories.Repositories
 {
-    public class OrderCommandsRepository(IBillingSalesCommandDataContext context) : ICommandsOrderRepository
+    public class OrderCommandsRepository(IOrderBillingSalesCommandDataContext context) : ICommandsOrderRepository
     {
         public async Task CreateOrder(OrderAggregate order)
         {
@@ -31,7 +33,7 @@ namespace Billing.Sales.Backend.Repositories.Repositories
 
         public async Task SaveChanges()
         {
-            await context.SaveChangesAsync();
+            await context.SavesChangesAsync();
         }
 
         public async Task UpdateOrder(OrderAggregate order)

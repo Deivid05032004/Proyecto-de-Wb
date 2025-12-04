@@ -15,3 +15,4 @@ C:\Users\MY PC\source\repos\Billing\Billing.Sales.Backend.Repositories\obj\Debug
 C:\Users\MY PC\source\repos\Billing\Billing.Sales.Backend.Repositories\obj\Debug\net8.0\refint\Billing.Sales.Backend.Repositories.dll
 C:\Users\MY PC\source\repos\Billing\Billing.Sales.Backend.Repositories\obj\Debug\net8.0\Billing.Sales.Backend.Repositories.pdb
 C:\Users\MY PC\source\repos\Billing\Billing.Sales.Backend.Repositories\obj\Debug\net8.0\ref\Billing.Sales.Backend.Repositories.dll
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Backend.Repositories\obj\Debug\net8.0\Billing.Sales.Backend.Repositories.sourcelink.json

@@ -53,7 +53,7 @@ public class CreateOrderInteractor(IOrderOutputPort outputPort, ICommandsOrderRe
         var orders = await repository.GetAllOrders();
 
         outputPort.OrdersList = orders;
-        await outputPort.PresentAllOrders();
+        await outputPort.PresentAllOrders(orders);
     }
 
     public async Task HandleGetOrderById(int orderId)

@@ -7,7 +7,7 @@ namespace Billing.Sales.Backend.BusinessObjects.Interfaces.Customers;
 public interface ICustomerOuputPort
 {
     Task PresentCustomerCreated(CustomerAggregate customer);
-    Task PresentAllCustomers();
+    Task PresentAllCustomers(IEnumerable<CustomerAggregate> customers);
     IEnumerable<CustomerAggregate> CustomersList { get; set; }
     Task PresentCustomer(CustomerAggregate customer);
     Task PresentCustomerUpdated(int customerId ,CustomerAggregate customer);

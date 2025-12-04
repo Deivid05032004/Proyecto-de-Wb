@@ -1,7 +1,6 @@
 ﻿
 
 using Billing.Sales.Backend.BusinessObjects.Interfaces.OrderDetails;
-
 namespace Billing.Sales.Backend.UseCases.OrderDetailInteractor
 {
     public class CreateOrderDetailInteractor(IOrderDetailOuputPort ouputPort, ICommandsOrderDetailsRepository repository) : IOrderDetailInputPort
@@ -31,18 +30,34 @@ namespace Billing.Sales.Backend.UseCases.OrderDetailInteractor
         public async Task HandleGetAllOrderDetails()
         {
             var ordesDetail = await repository.GetAllOrderDetails();
-            //ouputPort.OrderDetailsList = ordesDetail
-            return;
+            ouputPort.OrderDetailsList = ordesDetail;
+            await ouputPort.PresentAllOrderDetails(ordesDetail); 
         }
 
-        public Task HandleGetOrderDetailById(int orderDetailId)
+        public async Task HandleGetOrderDetailById(int orderDetailId)
         {
-            throw new NotImplementedException();
+            var orderDetail = await repository.GetOrderDetailById(orderDetailId);
+            ouputPort.PresentOrderDetailById(orderDetail);
         }
 
-        public Task HandleUpdateOrderDetail(int orderDetailId, CreateOrderDetailsDto orderDetail)
+        public async Task HandleUpdateOrderDetail(int orderDetailId, CreateOrderDetailsDto orderDetail)
         {
-            throw new NotImplementedException();
+            var exist = await repository.GetOrderDetailById(orderDetailId);
+            if (exist == null)
+            {
+                ouputPort.PresentOrderDetailUpdated(orderDetailId, null);
+                return;
+            }
+            if (exist is OrderDetailAggregate agg)
+                agg.UpdateFrom(orderDetail);
+            else
+                throw new Exception("El orden detalle cargada no es un agregado válido");
+
+            await repository.SaveChanges();
+
+            await ouputPort.PresentOrderDetailUpdated(orderDetailId, agg);
+
+
         }
     }
 }

@@ -17,3 +17,4 @@ C:\Users\MY PC\source\repos\Billing\Billing.Sales.Fronend.Gateways\obj\Debug\net
 C:\Users\MY PC\source\repos\Billing\Billing.Sales.Fronend.Gateways\obj\Debug\net8.0\refint\Billing.Sales.Fronend.Gateways.dll
 C:\Users\MY PC\source\repos\Billing\Billing.Sales.Fronend.Gateways\obj\Debug\net8.0\Billing.Sales.Fronend.Gateways.pdb
 C:\Users\MY PC\source\repos\Billing\Billing.Sales.Fronend.Gateways\obj\Debug\net8.0\ref\Billing.Sales.Fronend.Gateways.dll
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Fronend.Gateways\obj\Debug\net8.0\Billing.Sales.Fronend.Gateways.sourcelink.json

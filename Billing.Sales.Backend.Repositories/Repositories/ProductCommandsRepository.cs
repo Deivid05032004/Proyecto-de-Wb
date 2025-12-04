@@ -1,7 +1,9 @@
 ﻿
+using Billing.Sales.Backend.Repositories.Interfaces.ProductCommand;
+
 namespace Billing.Sales.Backend.Repositories.Repositories
 {
-    internal class ProductCommandsRepository(IBillingSalesCommandDataContext context) : ICommandsProductRepository
+    public  class ProductCommandsRepository(IProductBillingSalesCommandDataContext context) : ICommandsProductRepository
     {
         public async Task CreateProduct(ProductAggregate product)
         {
@@ -32,7 +34,7 @@ namespace Billing.Sales.Backend.Repositories.Repositories
 
         public async Task SaveChanges()
         {
-           await context.SaveChangesAsync();
+            await context.SavesChangesAsync();
         }
 
         public async Task UpdateProduct(ProductAggregate product)

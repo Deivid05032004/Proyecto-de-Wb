@@ -13,3 +13,4 @@ C:\Users\MY PC\source\repos\Billing\Billing.Sales.Backend.BusinessObjects\obj\De
 C:\Users\MY PC\source\repos\Billing\Billing.Sales.Backend.BusinessObjects\obj\Debug\net8.0\refint\Billing.Sales.Backend.BusinessObjects.dll
 C:\Users\MY PC\source\repos\Billing\Billing.Sales.Backend.BusinessObjects\obj\Debug\net8.0\Billing.Sales.Backend.BusinessObjects.pdb
 C:\Users\MY PC\source\repos\Billing\Billing.Sales.Backend.BusinessObjects\obj\Debug\net8.0\ref\Billing.Sales.Backend.BusinessObjects.dll
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Backend.BusinessObjects\obj\Debug\net8.0\Billing.Sales.Backend.BusinessObjects.sourcelink.json

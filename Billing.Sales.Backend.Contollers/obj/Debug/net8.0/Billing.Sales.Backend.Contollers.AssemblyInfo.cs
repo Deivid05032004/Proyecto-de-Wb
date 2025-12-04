@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Billing.Sales.Backend.Contollers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a3daef144a5c73efa8b02cf42b05c59bb85dc25")]
 [assembly: System.Reflection.AssemblyProductAttribute("Billing.Sales.Backend.Contollers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Billing.Sales.Backend.Contollers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

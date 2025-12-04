@@ -15,3 +15,4 @@ C:\Users\MY PC\source\repos\Billing\Billing.Sales.Backend.UseCases\obj\Debug\net
 C:\Users\MY PC\source\repos\Billing\Billing.Sales.Backend.UseCases\obj\Debug\net8.0\refint\Billing.Sales.Backend.UseCases.dll
 C:\Users\MY PC\source\repos\Billing\Billing.Sales.Backend.UseCases\obj\Debug\net8.0\Billing.Sales.Backend.UseCases.pdb
 C:\Users\MY PC\source\repos\Billing\Billing.Sales.Backend.UseCases\obj\Debug\net8.0\ref\Billing.Sales.Backend.UseCases.dll
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Backend.UseCases\obj\Debug\net8.0\Billing.Sales.Backend.UseCases.sourcelink.json

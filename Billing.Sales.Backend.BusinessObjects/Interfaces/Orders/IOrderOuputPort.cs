@@ -4,7 +4,7 @@
     {
         Task PresentOrderCreated(OrderAggregate order);
 
-        Task PresentAllOrders();
+        Task PresentAllOrders(IEnumerable<OrderAggregate> orders);
         IEnumerable<OrderAggregate> OrdersList { get; set; }
 
         Task PresentOrderById(OrderAggregate? order);

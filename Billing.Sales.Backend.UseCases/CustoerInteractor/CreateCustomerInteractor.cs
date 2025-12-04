@@ -42,7 +42,7 @@ public class CreateCustomerInteractor(ICustomerOuputPort ouputPort, ICommandsCus
         var customers = await repository.GetAllCustomers();
         ouputPort.CustomersList = customers;
 
-        await ouputPort.PresentAllCustomers();
+        await ouputPort.PresentAllCustomers(customers);
     }
 
     public async Task HandleGetCustomerById(int customerId)

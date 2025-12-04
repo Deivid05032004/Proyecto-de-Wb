@@ -31,7 +31,7 @@ namespace Billing.Sales.Backend.UseCases.ProductInteractor
             var product = await repository.GetAllProducts();
             ouputPort.productsList = product;
             
-            await ouputPort.PresentAllProducts();
+            await ouputPort.PresentAllProducts(product);
             
         }
 

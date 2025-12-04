@@ -6,7 +6,7 @@ namespace Billing.Sales.Backend.BusinessObjects.Interfaces.Products;
 public interface IProductOuputPort
 {
     Task PresentProductCreated(ProductAggregate product);
-    Task PresentAllProducts();
+    Task PresentAllProducts(IEnumerable<ProductAggregate> products);
     IEnumerable<ProductAggregate> productsList { get; set; }
     Task PresentProduct(ProductAggregate product);
     ProductAggregate?  ProductById { get; set; }
