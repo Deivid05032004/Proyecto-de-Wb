@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Billing.Sales.Fronend.Business.Objects/1.0.0": {
+        "dependencies": {
+          "Billing.Sales.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Billing.Sales.Fronend.Business.Objects.dll": {}
+        }
+      },
+      "Billing.Sales.Entities/1.0.0": {
+        "runtime": {
+          "Billing.Sales.Entities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Billing.Sales.Fronend.Business.Objects/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Billing.Sales.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

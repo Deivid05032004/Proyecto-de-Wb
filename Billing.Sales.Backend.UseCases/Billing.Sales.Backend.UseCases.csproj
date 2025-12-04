@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Billing.Sales.Backend.BusinessObjects\Billing.Sales.Backend.BusinessObjects.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="OrderDetailInteractor\" />
+    <Folder Include="OrderInteractor\" />
+    <Folder Include="ProductInteractor\" />
+  </ItemGroup>
+
+</Project>

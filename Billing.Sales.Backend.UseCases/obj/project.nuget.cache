@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GVXBmnk8Aq0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Backend.UseCases\\Billing.Sales.Backend.UseCases.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MY PC\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

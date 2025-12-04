@@ -1,0 +1,15 @@
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Fronend.Business.Objects\bin\Debug\net8.0\Billing.Sales.Fronend.Business.Objects.deps.json
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Fronend.Business.Objects\bin\Debug\net8.0\Billing.Sales.Fronend.Business.Objects.dll
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Fronend.Business.Objects\bin\Debug\net8.0\Billing.Sales.Fronend.Business.Objects.pdb
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Fronend.Business.Objects\bin\Debug\net8.0\Billing.Sales.Entities.dll
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Fronend.Business.Objects\bin\Debug\net8.0\Billing.Sales.Entities.pdb
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Fronend.Business.Objects\obj\Debug\net8.0\Billing.Sales.Fronend.Business.Objects.csproj.AssemblyReference.cache
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Fronend.Business.Objects\obj\Debug\net8.0\Billing.Sales.Fronend.Business.Objects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Fronend.Business.Objects\obj\Debug\net8.0\Billing.Sales.Fronend.Business.Objects.AssemblyInfoInputs.cache
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Fronend.Business.Objects\obj\Debug\net8.0\Billing.Sales.Fronend.Business.Objects.AssemblyInfo.cs
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Fronend.Business.Objects\obj\Debug\net8.0\Billing.Sales.Fronend.Business.Objects.csproj.CoreCompileInputs.cache
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Fronend.Business.Objects\obj\Debug\net8.0\Billing..B6C983D5.Up2Date
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Fronend.Business.Objects\obj\Debug\net8.0\Billing.Sales.Fronend.Business.Objects.dll
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Fronend.Business.Objects\obj\Debug\net8.0\refint\Billing.Sales.Fronend.Business.Objects.dll
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Fronend.Business.Objects\obj\Debug\net8.0\Billing.Sales.Fronend.Business.Objects.pdb
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Fronend.Business.Objects\obj\Debug\net8.0\ref\Billing.Sales.Fronend.Business.Objects.dll

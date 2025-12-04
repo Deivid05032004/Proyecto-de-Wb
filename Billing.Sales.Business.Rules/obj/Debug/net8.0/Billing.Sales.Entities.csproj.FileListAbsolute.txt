@@ -1,0 +1,11 @@
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Business.Rules\bin\Debug\net8.0\Billing.Sales.Entities.deps.json
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Business.Rules\bin\Debug\net8.0\Billing.Sales.Entities.dll
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Business.Rules\bin\Debug\net8.0\Billing.Sales.Entities.pdb
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Business.Rules\obj\Debug\net8.0\Billing.Sales.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Business.Rules\obj\Debug\net8.0\Billing.Sales.Entities.AssemblyInfoInputs.cache
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Business.Rules\obj\Debug\net8.0\Billing.Sales.Entities.AssemblyInfo.cs
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Business.Rules\obj\Debug\net8.0\Billing.Sales.Entities.csproj.CoreCompileInputs.cache
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Business.Rules\obj\Debug\net8.0\Billing.Sales.Entities.dll
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Business.Rules\obj\Debug\net8.0\refint\Billing.Sales.Entities.dll
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Business.Rules\obj\Debug\net8.0\Billing.Sales.Entities.pdb
+C:\Users\MY PC\source\repos\Billing\Billing.Sales.Business.Rules\obj\Debug\net8.0\ref\Billing.Sales.Entities.dll
