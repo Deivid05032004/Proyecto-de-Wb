@@ -34,8 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{51d8ca1e-4698-404c-a37b-a4a41603557b}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -59,8 +75,7 @@
               "RelativeToolTip": "Billing.Sales.Backend.DataContext.EFCore\\Configurations\\OrderConfigurations.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAA5wAkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T21:24:22.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T21:24:22.253Z"
             },
             {
               "$type": "Document",
@@ -72,8 +87,7 @@
               "RelativeToolTip": "Billing.Sales.Backend.DataContext.EFCore\\Configurations\\OrderDetailsConfigurations.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T21:21:27.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T21:21:27.247Z"
             },
             {
               "$type": "Document",
@@ -85,24 +99,7 @@
               "RelativeToolTip": "Billing.Sales.Backend.DataContext.EFCore\\Configurations\\ProductsConfigurations.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAqwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T21:19:54.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{51d8ca1e-4698-404c-a37b-a4a41603557b}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "WhenOpened": "2025-12-04T21:19:54.431Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "Billing.Sales.Backend.BusinessObjects\\POCOEntities\\Customer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T21:18:47.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T21:18:47.889Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "Billing.Sales.Backend.DataContext.EFCore\\Configurations\\CustomerConfigurations.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T21:14:08.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T21:14:08.702Z"
             }
           ]
         },
