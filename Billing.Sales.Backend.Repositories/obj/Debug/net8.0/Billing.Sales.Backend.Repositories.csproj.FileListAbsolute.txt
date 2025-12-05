@@ -16,3 +16,21 @@ C:\Users\MY PC\source\repos\Billing\Billing.Sales.Backend.Repositories\obj\Debug
 C:\Users\MY PC\source\repos\Billing\Billing.Sales.Backend.Repositories\obj\Debug\net8.0\Billing.Sales.Backend.Repositories.pdb
 C:\Users\MY PC\source\repos\Billing\Billing.Sales.Backend.Repositories\obj\Debug\net8.0\ref\Billing.Sales.Backend.Repositories.dll
 C:\Users\MY PC\source\repos\Billing\Billing.Sales.Backend.Repositories\obj\Debug\net8.0\Billing.Sales.Backend.Repositories.sourcelink.json
+C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backend.Repositories\bin\Debug\net8.0\Billing.Sales.Backend.Repositories.deps.json
+C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backend.Repositories\bin\Debug\net8.0\Billing.Sales.Backend.Repositories.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backend.Repositories\bin\Debug\net8.0\Billing.Sales.Backend.Repositories.pdb
+C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backend.Repositories\bin\Debug\net8.0\Billing.Sales.Backend.BusinessObjects.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backend.Repositories\bin\Debug\net8.0\Billing.Sales.Entities.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backend.Repositories\bin\Debug\net8.0\Billing.Sales.Backend.BusinessObjects.pdb
+C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backend.Repositories\bin\Debug\net8.0\Billing.Sales.Entities.pdb
+C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backend.Repositories\obj\Debug\net8.0\Billing.Sales.Backend.Repositories.csproj.AssemblyReference.cache
+C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backend.Repositories\obj\Debug\net8.0\Billing.Sales.Backend.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backend.Repositories\obj\Debug\net8.0\Billing.Sales.Backend.Repositories.AssemblyInfoInputs.cache
+C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backend.Repositories\obj\Debug\net8.0\Billing.Sales.Backend.Repositories.AssemblyInfo.cs
+C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backend.Repositories\obj\Debug\net8.0\Billing.Sales.Backend.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backend.Repositories\obj\Debug\net8.0\Billing.Sales.Backend.Repositories.sourcelink.json
+C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backend.Repositories\obj\Debug\net8.0\Billing..8E0BF79E.Up2Date
+C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backend.Repositories\obj\Debug\net8.0\Billing.Sales.Backend.Repositories.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backend.Repositories\obj\Debug\net8.0\refint\Billing.Sales.Backend.Repositories.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backend.Repositories\obj\Debug\net8.0\Billing.Sales.Backend.Repositories.pdb
+C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backend.Repositories\obj\Debug\net8.0\ref\Billing.Sales.Backend.Repositories.dll

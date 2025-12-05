@@ -1,13 +1,25 @@
 ﻿using Billing.Sales.Backend.BusinessObjects.Interfaces.Orders;
+using Billing.Sales.Backend.BusinessObjects.Interfaces.Repositories;
 
-public class CreateOrderInteractor(IOrderOutputPort outputPort, ICommandsOrderRepository repository): IOrderInputPort
+public class CreateOrderInteractor(
+    IOrderOutputPort outputPort,ICommandsOrderRepository repository,ICommandsOrderDetailsRepository orderDetailRepository) : IOrderInputPort
 {
     public async Task HandleCreateOrder(CreateOrderDto dto)
     {
         var order = OrderAggregate.From(dto);
 
+        // 1) Guardar la orden (sin detalles todavía)
         await repository.CreateOrder(order);
         await repository.SaveChanges();
+
+        // 2) Ahora guardar los detalles
+        foreach (var detail in order.OrderDetails)
+        {
+            detail.OrderId = order.Id;
+            await orderDetailRepository.CreateOrderDetail(detail);
+        }
+
+        await orderDetailRepository.SaveChanges();
 
         await outputPort.PresentOrderCreated(order);
     }
@@ -22,14 +34,12 @@ public class CreateOrderInteractor(IOrderOutputPort outputPort, ICommandsOrderRe
             return;
         }
 
-        if (existing is OrderAggregate aggregate)
-            aggregate.UpdateFrom(dto);
-        else
-            throw new Exception("El orden cargada no es un agregado válido");
+        existing.UpdateFrom(dto);
+        repository.UpdateOrder(existing);
 
         await repository.SaveChanges();
 
-        await outputPort.PresentOrderUpdated(orderId, aggregate);
+        await outputPort.PresentOrderUpdated(orderId, existing);
     }
 
     public async Task HandleDeleteOrder(int orderId)

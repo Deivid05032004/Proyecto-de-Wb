@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Fronend.Gateways\\Billing.Sales.Fronend.Gateways.csproj": {}
+    "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Fronend.Gateways\\Billing.Sales.Fronend.Gateways.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj": {
+    "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj",
+        "projectUniqueName": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj",
         "projectName": "Billing.Sales.Backend.BusinessObjects",
-        "projectPath": "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj",
+        "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj",
         "packagesPath": "C:\\Users\\MY PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Backend.BusinessObjects\\obj\\",
+        "outputPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.BusinessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj": {
-                "projectPath": "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj"
+              "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj": {
+                "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj": {
+    "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj",
         "projectName": "Billing.Sales.Entities",
-        "projectPath": "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj",
+        "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj",
         "packagesPath": "C:\\Users\\MY PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Business.Rules\\obj\\",
+        "outputPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Business.Rules\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -138,14 +138,14 @@
         }
       }
     },
-    "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Fronend.Business.Objects\\Billing.Sales.Fronend.Business.Objects.csproj": {
+    "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Fronend.Business.Objects\\Billing.Sales.Fronend.Business.Objects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Fronend.Business.Objects\\Billing.Sales.Fronend.Business.Objects.csproj",
+        "projectUniqueName": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Fronend.Business.Objects\\Billing.Sales.Fronend.Business.Objects.csproj",
         "projectName": "Billing.Sales.Fronend.Business.Objects",
-        "projectPath": "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Fronend.Business.Objects\\Billing.Sales.Fronend.Business.Objects.csproj",
+        "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Fronend.Business.Objects\\Billing.Sales.Fronend.Business.Objects.csproj",
         "packagesPath": "C:\\Users\\MY PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Fronend.Business.Objects\\obj\\",
+        "outputPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Fronend.Business.Objects\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -166,8 +166,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj": {
-                "projectPath": "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj"
+              "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj": {
+                "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj"
               }
             }
           }
@@ -207,14 +207,14 @@
         }
       }
     },
-    "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Fronend.Gateways\\Billing.Sales.Fronend.Gateways.csproj": {
+    "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Fronend.Gateways\\Billing.Sales.Fronend.Gateways.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Fronend.Gateways\\Billing.Sales.Fronend.Gateways.csproj",
+        "projectUniqueName": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Fronend.Gateways\\Billing.Sales.Fronend.Gateways.csproj",
         "projectName": "Billing.Sales.Fronend.Gateways",
-        "projectPath": "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Fronend.Gateways\\Billing.Sales.Fronend.Gateways.csproj",
+        "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Fronend.Gateways\\Billing.Sales.Fronend.Gateways.csproj",
         "packagesPath": "C:\\Users\\MY PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Fronend.Gateways\\obj\\",
+        "outputPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Fronend.Gateways\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -235,11 +235,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj": {
-                "projectPath": "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj"
+              "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj": {
+                "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj"
               },
-              "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Fronend.Business.Objects\\Billing.Sales.Fronend.Business.Objects.csproj": {
-                "projectPath": "C:\\Users\\MY PC\\source\\repos\\Billing\\Billing.Sales.Fronend.Business.Objects\\Billing.Sales.Fronend.Business.Objects.csproj"
+              "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Fronend.Business.Objects\\Billing.Sales.Fronend.Business.Objects.csproj": {
+                "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Fronend.Business.Objects\\Billing.Sales.Fronend.Business.Objects.csproj"
               }
             }
           }

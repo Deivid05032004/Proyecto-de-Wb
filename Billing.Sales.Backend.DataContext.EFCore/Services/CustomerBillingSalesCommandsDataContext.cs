@@ -16,38 +16,56 @@ internal class CustomerBillingSalesCommandsDataContext(IOptions<DBOptions> dbopt
     // ---------------------------------------------------------------------
     public async Task AddCustomerAsync(Customer customer)
     {
-        await AddAsync(customer);
-    }
-
-    public Task DeleteCustomerAsync(Customer customer)
-    {
-        Customer.Remove(customer);
-        return Task.CompletedTask;
+        await Customer.AddAsync(customer);
     }
 
     // ---------------------------------------------------------------------
-    // READ (ALL)
+    // GET ALL
     // ---------------------------------------------------------------------
     public async Task<IEnumerable<Customer>> GetAllCustomersAsync()
     {
-        return await Customer.ToListAsync();
+        return await Customer.AsNoTracking().ToListAsync();
     }
 
     // ---------------------------------------------------------------------
-    // READ (BY ID)
+    // GET BY ID
     // ---------------------------------------------------------------------
     public async Task<Customer?> GetCustomerByIdAsync(int id)
     {
-        return await Customer.FirstOrDefaultAsync(x => x.Id == id);
+        return await Customer.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
     }
 
     // ---------------------------------------------------------------------
-    // DELETE
+    // UPDATE (SEGURO — SIN TRACKING DUPLICADO)
     // ---------------------------------------------------------------------
-    public Task RemoveCustomer(Customer customer)
+    public async Task UpdateCustomerAsync(Customer customer)
     {
-        Customer.Remove(customer);
-        return Task.CompletedTask;
+        var existing = await Customer.FirstOrDefaultAsync(x => x.Id == customer.Id);
+
+        if (existing == null)
+            throw new Exception("Customer not found");
+
+        // Actualizar propiedades
+        existing.IdentificationNumber = customer.IdentificationNumber;
+        existing.FirstName = customer.FirstName;
+        existing.LastName = customer.LastName;
+        existing.EmailAddress = customer.EmailAddress;
+        existing.PhoneNumber = customer.PhoneNumber;
+        existing.Address = customer.Address;
+        existing.City = customer.City;
+    }
+
+    // ---------------------------------------------------------------------
+    // DELETE (SEGURO — CARGA DESDE LA BD)
+    // ---------------------------------------------------------------------
+    public async Task DeleteCustomerAsync(Customer customer)
+    {
+        var existing = await Customer.FirstOrDefaultAsync(c => c.Id == customer.Id);
+
+        if (existing == null)
+            throw new Exception("Customer not found");
+
+        Customer.Remove(existing);
     }
 
     // ---------------------------------------------------------------------
@@ -56,10 +74,5 @@ internal class CustomerBillingSalesCommandsDataContext(IOptions<DBOptions> dbopt
     public async Task SavesChangesAsync()
     {
         await base.SaveChangesAsync();
-    }
-
-    public Task UpdateCustomerAsync(Customer customer)
-    {
-        throw new NotImplementedException();
-    }
+    } 
 }

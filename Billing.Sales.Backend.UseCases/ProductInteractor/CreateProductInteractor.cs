@@ -52,10 +52,8 @@ namespace Billing.Sales.Backend.UseCases.ProductInteractor
                 return;
             }
 
-            if (product is ProductAggregate aggregate)
-                aggregate.UpdateProductFrom(productdto);
-            else
-                throw new Exception("Error al cargar los datos del producto");
+            product.UpdateProductFrom(productdto);
+            repository.UpdateProduct(product);
 
             await repository.SaveChanges();
 

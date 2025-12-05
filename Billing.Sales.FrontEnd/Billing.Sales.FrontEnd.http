@@ -1,0 +1,6 @@
+@Billing.Sales.FrontEnd_HostAddress = http://localhost:5056
+
+GET {{Billing.Sales.FrontEnd_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

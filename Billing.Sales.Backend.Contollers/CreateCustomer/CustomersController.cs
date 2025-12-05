@@ -1,12 +1,105 @@
 ﻿
-namespace Billing.Sales.Backend.Controllers.CreateCustomer; // Esta línea está comentada, pero si es un namespace, debe ir sin el //
+//namespace Billing.Sales.Backend.Controllers.CreateCustomer; // Esta línea está comentada, pero si es un namespace, debe ir sin el //
+
+//public static class CustomersController
+//{
+//    public static WebApplication UseCustomersController(this WebApplication app)
+//    {
+//        // ... (El código de mapeo de rutas) ...
+
+//        app.MapPost(EndPoints.Customers, CreateCustomer);
+//        app.MapGet(EndPoints.Customers, GetAllCustomers);
+//        app.MapGet(EndPoints.CustomersById, GetCustomerById);
+//        app.MapPut(EndPoints.CustomersById, UpdateCustomer);
+//        app.MapDelete(EndPoints.CustomersById, DeleteCustomer);
+
+//        return app;
+//    }
+
+//    // POST: /api/customers
+//    private static async Task<int> CreateCustomer(
+//        CreateCustomerDto dto,
+//        ICustomerInputPort inputPort,
+//        ICustomerOuputPort outputPort)
+//    {
+//        await inputPort.HandleCreateCustomer(dto);
+//        return outputPort.CustomerById!.Id;
+//    }
+
+//    // GET: /api/customers
+//    private static async Task<IEnumerable<object>> GetAllCustomers(
+//        ICustomerInputPort inputPort, ICustomerOuputPort ouputPort)
+//    {
+//        await inputPort.HandleGetAllCustomers();
+//        return ouputPort.CustomersList.Select(c => new
+//        {
+//            c.Id,
+//            c.IdentificationNumber,
+//            c.FirstName,
+//            c.LastName,
+//            c.EmailAddress,
+//            c.PhoneNumber,
+//            c.City
+//        });
+//    }
+
+//    //GET: /api/customers/{id}
+//    private static async Task<object?> GetCustomerById(
+//        int id,
+//        ICustomerInputPort inputPort,
+//        ICustomerOuputPort ouputPort)
+//    {
+//        await inputPort.HandleGetCustomerById(id);
+
+//        if (ouputPort.CustomerById is null)
+//            return null;
+
+//        return new
+//        {
+//            ouputPort.CustomerById.Id,
+//            ouputPort.CustomerById.IdentificationNumber,
+//            ouputPort.CustomerById.FirstName,
+//            ouputPort.CustomerById.LastName,
+//            ouputPort.CustomerById.EmailAddress,
+//            ouputPort.CustomerById.PhoneNumber,
+//            ouputPort.CustomerById.Address,
+//            ouputPort.CustomerById.City
+//        };
+//    }
+
+//    // PUT: /api/customers/{id}
+//    private static async Task<bool> UpdateCustomer(
+//        int id,
+//        CreateCustomerDto dto,
+//        ICustomerInputPort inputPort,
+//        ICustomerOuputPort ouputPort)
+//    {
+//        await inputPort.HandleUpdateCustomer(id, dto); ;
+//        return true;
+
+//    }
+
+//    // DELETE: /api/customers/{id}
+//    private static async Task<bool> DeleteCustomer(
+//        int id,
+//        ICustomerInputPort inputPort,
+//        ICustomerOuputPort ouputPort)
+//    {
+//        await inputPort.HandleDeleteCustomer(id);
+//        return true;
+//    }
+
+
+//}
+using Billing.Sales.Entities.Dtos.ValueObjects;
+using Microsoft.AspNetCore.Mvc;
+
+namespace Billing.Sales.Backend.Controllers.CreateCustomer;
 
 public static class CustomersController
 {
     public static WebApplication UseCustomersController(this WebApplication app)
     {
-        // ... (El código de mapeo de rutas) ...
-
         app.MapPost(EndPoints.Customers, CreateCustomer);
         app.MapGet(EndPoints.Customers, GetAllCustomers);
         app.MapGet(EndPoints.CustomersById, GetCustomerById);
@@ -18,9 +111,9 @@ public static class CustomersController
 
     // POST: /api/customers
     private static async Task<int> CreateCustomer(
-        CreateCustomerDto dto,
-        ICustomerInputPort inputPort,
-        ICustomerOuputPort outputPort)
+        [FromBody] CreateCustomerDto dto,
+        [FromServices] ICustomerInputPort inputPort,
+        [FromServices] ICustomerOuputPort outputPort)
     {
         await inputPort.HandleCreateCustomer(dto);
         return outputPort.CustomerById!.Id;
@@ -28,10 +121,12 @@ public static class CustomersController
 
     // GET: /api/customers
     private static async Task<IEnumerable<object>> GetAllCustomers(
-        ICustomerInputPort inputPort, ICustomerOuputPort ouputPort)
+        [FromServices] ICustomerInputPort inputPort,
+        [FromServices] ICustomerOuputPort outputPort)
     {
         await inputPort.HandleGetAllCustomers();
-        return ouputPort.CustomersList.Select(c => new
+
+        return outputPort.CustomersList.Select(c => new
         {
             c.Id,
             c.IdentificationNumber,
@@ -43,51 +138,48 @@ public static class CustomersController
         });
     }
 
-    //GET: /api/customers/{id}
+    // GET: /api/customers/{id}
     private static async Task<object?> GetCustomerById(
-        int id,
-        ICustomerInputPort inputPort,
-        ICustomerOuputPort ouputPort)
+        [FromRoute] int id,
+        [FromServices] ICustomerInputPort inputPort,
+        [FromServices] ICustomerOuputPort outputPort)
     {
         await inputPort.HandleGetCustomerById(id);
 
-        if (ouputPort.CustomerById is null)
+        if (outputPort.CustomerById is null)
             return null;
 
         return new
         {
-            ouputPort.CustomerById.Id,
-            ouputPort.CustomerById.IdentificationNumber,
-            ouputPort.CustomerById.FirstName,
-            ouputPort.CustomerById.LastName,
-            ouputPort.CustomerById.EmailAddress,
-            ouputPort.CustomerById.PhoneNumber,
-            ouputPort.CustomerById.Address,
-            ouputPort.CustomerById.City
+            outputPort.CustomerById.Id,
+            outputPort.CustomerById.IdentificationNumber,
+            outputPort.CustomerById.FirstName,
+            outputPort.CustomerById.LastName,
+            outputPort.CustomerById.EmailAddress,
+            outputPort.CustomerById.PhoneNumber,
+            outputPort.CustomerById.Address,
+            outputPort.CustomerById.City
         };
     }
 
     // PUT: /api/customers/{id}
     private static async Task<bool> UpdateCustomer(
-        int id,
-        CreateCustomerDto dto,
-        ICustomerInputPort inputPort,
-        ICustomerOuputPort ouputPort)
+        [FromRoute] int id,
+        [FromBody] CreateCustomerDto dto,
+        [FromServices] ICustomerInputPort inputPort,
+        [FromServices] ICustomerOuputPort outputPort)
     {
-        await inputPort.HandleUpdateCustomer(id, dto); ;
+        await inputPort.HandleUpdateCustomer(id, dto);
         return true;
-
     }
 
     // DELETE: /api/customers/{id}
     private static async Task<bool> DeleteCustomer(
-        int id,
-        ICustomerInputPort inputPort,
-        ICustomerOuputPort ouputPort)
+        [FromRoute] int id,
+        [FromServices] ICustomerInputPort inputPort,
+        [FromServices] ICustomerOuputPort outputPort)
     {
         await inputPort.HandleDeleteCustomer(id);
         return true;
     }
-
-
 }

@@ -1,5 +1,7 @@
 ﻿
 
+using Billing.Sales.Backend.BusinessObjects.POCOEntities;
+
 namespace Billing.Sales.Backend.UseCases.CustoerInteractor;
 
 public class CreateCustomerInteractor(ICustomerOuputPort ouputPort, ICommandsCustomerRepository repository) : ICustomerInputPort
@@ -16,22 +18,21 @@ public class CreateCustomerInteractor(ICustomerOuputPort ouputPort, ICommandsCus
 
     public async Task HandleUpdateCustomer(int customerId, CreateCustomerDto dto)
     {
-        var customers = await repository.GetCustomerById(customerId);
+        var customer = await repository.GetCustomerById(customerId);
 
-        if (customers == null) 
+        if (customer == null)
         {
             await ouputPort.PresentCustomerUpdated(customerId, null);
             return;
         }
 
-        if (customers is CustomerAggregate aggregate)
-            aggregate.UpdateFrom(dto);
-        else
-            throw new Exception("Error en mapear los datos del cliente");
+        customer.UpdateFrom(dto);
+
+        await repository.UpdateCustomer(customer);
 
         await repository.SaveChanges();
 
-        await ouputPort.PresentCustomerUpdated(customerId, customers);
+        await ouputPort.PresentCustomerUpdated(customerId, customer);
 
     }
 

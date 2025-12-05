@@ -2,29 +2,48 @@
 
 public class OrderAggregate : Order
 {
+    // === LISTA REAL DE DETALLES ===
     private readonly List<OrderDetailAggregate> _details = new();
     public IReadOnlyCollection<OrderDetailAggregate> OrderDetails => _details.AsReadOnly();
 
+    // ================================
+    //   AGREGAR O ACTUALIZAR DETALLE
+    // ================================
     public void AddOrUpdateDetail(CreateOrderDetailsDto dto)
     {
         var existing = _details.FirstOrDefault(x => x.ProductId == dto.ProductId);
 
         if (existing != null)
         {
+            // Sumar cantidades
             existing.Quantity += dto.Quantity;
+
+            // Actualizar precio unitario al nuevo precio (si aplica)
+            existing.UnitPrice = (decimal)dto.SalePrice;
+
             return;
         }
 
+        // Si no existe, crear el detalle
         _details.Add(OrderDetailAggregate.From(dto));
     }
 
+    // ====================================
+    //  REEMPLAZAR DETALLES (UPDATE ORDER)
+    // ====================================
     public void ReplaceDetails(IEnumerable<CreateOrderDetailsDto> dtos)
     {
         _details.Clear();
-        foreach (var d in dtos)
-            _details.Add(OrderDetailAggregate.From(d));
+
+        foreach (var dto in dtos)
+        {
+            AddOrUpdateDetail(dto); // REGLA ÚNICA (no duplicar código)
+        }
     }
 
+    // ===============================
+    //   CREAR AGGREGATE DESDE DTO
+    // ===============================
     public static OrderAggregate From(CreateOrderDto dto)
     {
         var order = new OrderAggregate
@@ -35,12 +54,18 @@ public class OrderAggregate : Order
             Total = dto.Total
         };
 
-        foreach (var detail in dto.OrderDetails)
-            order.AddOrUpdateDetail(detail);
+        if (dto.OrderDetails != null)
+        {
+            foreach (var d in dto.OrderDetails)
+                order.AddOrUpdateDetail(d);
+        }
 
         return order;
     }
 
+    // ===============================
+    //    ACTUALIZAR ORDER COMPLETA
+    // ===============================
     public void UpdateFrom(CreateOrderDto dto)
     {
         CustomerId = dto.CustomerId;
@@ -48,9 +73,13 @@ public class OrderAggregate : Order
         InvoiceNumber = dto.InvoiceNumber;
         Total = dto.Total;
 
-        // Reemplazar detalles completamente
+        // Reemplazar detalles con lógica de sumar duplicados
         ReplaceDetails(dto.OrderDetails);
     }
+
+    // ===============================
+    //    CREAR AGGREGATE DESDE ENTITY
+    // ===============================
     public static OrderAggregate FromEntity(Order entity)
     {
         var order = new OrderAggregate

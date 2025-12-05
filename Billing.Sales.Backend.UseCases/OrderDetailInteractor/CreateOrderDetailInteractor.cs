@@ -48,14 +48,14 @@ namespace Billing.Sales.Backend.UseCases.OrderDetailInteractor
                 ouputPort.PresentOrderDetailUpdated(orderDetailId, null);
                 return;
             }
-            if (exist is OrderDetailAggregate agg)
-                agg.UpdateFrom(orderDetail);
-            else
-                throw new Exception("El orden detalle cargada no es un agregado válido");
+            exist.UpdateFrom(orderDetail);
+
+            repository.UpdateOrderDetail(exist);
+   
 
             await repository.SaveChanges();
 
-            await ouputPort.PresentOrderDetailUpdated(orderDetailId, agg);
+            await ouputPort.PresentOrderDetailUpdated(orderDetailId, exist);
 
 
         }

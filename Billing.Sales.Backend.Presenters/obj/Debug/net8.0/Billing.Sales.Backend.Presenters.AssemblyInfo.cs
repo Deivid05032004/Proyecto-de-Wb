@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Billing.Sales.Backend.Presenters")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+625b9234962fb218ec99945f4fe8b7cc495cd3c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79feeb7c377986ed17b2e87012c69000497b239a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Billing.Sales.Backend.Presenters")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Billing.Sales.Backend.Presenters")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
