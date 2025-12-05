@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Billing.Sales.Backend.DataContext.EFCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a4857b65f88daf1ceb1e429916fd9b1874e14a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97c65e56c2670399c40bb55ab8fd97b61714557c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Billing.Sales.Backend.DataContext.EFCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Billing.Sales.Backend.DataContext.EFCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

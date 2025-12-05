@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v5pCHrottSs=",
+  "dgSpecHash": "skMxKlRMxck=",
   "success": true,
-  "projectFilePath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.RazorComponent.WebApi\\Billing.RazorComponent.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.RazorComponent.WebApi\\Billing.RazorComponent.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MY PC\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\MY PC\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
