@@ -201,6 +201,7 @@
       },
       "Billing.Sales.Fronend.Business.Objects/1.0.0": {
         "dependencies": {
+          "Billing.Sales.Backend.BusinessObjects": "1.0.0",
           "Billing.Sales.Entities": "1.0.0"
         },
         "runtime": {

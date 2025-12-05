@@ -304,6 +304,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "Billing.Sales.Backend.BusinessObjects": "1.0.0",
           "Billing.Sales.Entities": "1.0.0"
         },
         "compile": {
@@ -807,23 +808,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MY PC\\.nuget\\packages\\": {},
+    "C:\\Users\\Damian\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Fronend.Gateways\\Billing.Sales.Fronend.Gateways.csproj",
+      "projectUniqueName": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Fronend.Gateways\\Billing.Sales.Fronend.Gateways.csproj",
       "projectName": "Billing.Sales.Fronend.Gateways",
-      "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Fronend.Gateways\\Billing.Sales.Fronend.Gateways.csproj",
-      "packagesPath": "C:\\Users\\MY PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Fronend.Gateways\\obj\\",
+      "projectPath": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Fronend.Gateways\\Billing.Sales.Fronend.Gateways.csproj",
+      "packagesPath": "C:\\Users\\Damian\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Fronend.Gateways\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\MY PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Damian\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -832,17 +833,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj": {
-              "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj"
+            "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj": {
+              "projectPath": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj"
             },
-            "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Fronend.Business.Objects\\Billing.Sales.Fronend.Business.Objects.csproj": {
-              "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Fronend.Business.Objects\\Billing.Sales.Fronend.Business.Objects.csproj"
+            "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Fronend.Business.Objects\\Billing.Sales.Fronend.Business.Objects.csproj": {
+              "projectPath": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Fronend.Business.Objects\\Billing.Sales.Fronend.Business.Objects.csproj"
             }
           }
         }

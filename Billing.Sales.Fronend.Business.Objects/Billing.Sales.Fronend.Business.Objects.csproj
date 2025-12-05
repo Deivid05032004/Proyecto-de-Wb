@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Billing.Sales.Backend.BusinessObjects\Billing.Sales.Backend.BusinessObjects.csproj" />
     <ProjectReference Include="..\Billing.Sales.Business.Rules\Billing.Sales.Entities.csproj" />
   </ItemGroup>
 

@@ -30,3 +30,19 @@ C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backen
 C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backend.BusinessObjects\obj\Debug\net8.0\refint\Billing.Sales.Backend.BusinessObjects.dll
 C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backend.BusinessObjects\obj\Debug\net8.0\Billing.Sales.Backend.BusinessObjects.pdb
 C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backend.BusinessObjects\obj\Debug\net8.0\ref\Billing.Sales.Backend.BusinessObjects.dll
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Backend.BusinessObjects\obj\Debug\net8.0\Billing.Sales.Backend.BusinessObjects.csproj.AssemblyReference.cache
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Backend.BusinessObjects\obj\Debug\net8.0\Billing.Sales.Backend.BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Backend.BusinessObjects\obj\Debug\net8.0\Billing.Sales.Backend.BusinessObjects.AssemblyInfoInputs.cache
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Backend.BusinessObjects\obj\Debug\net8.0\Billing.Sales.Backend.BusinessObjects.AssemblyInfo.cs
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Backend.BusinessObjects\obj\Debug\net8.0\Billing.Sales.Backend.BusinessObjects.csproj.CoreCompileInputs.cache
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Backend.BusinessObjects\obj\Debug\net8.0\Billing.Sales.Backend.BusinessObjects.sourcelink.json
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Backend.BusinessObjects\obj\Debug\net8.0\Billing.Sales.Backend.BusinessObjects.dll
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Backend.BusinessObjects\obj\Debug\net8.0\refint\Billing.Sales.Backend.BusinessObjects.dll
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Backend.BusinessObjects\obj\Debug\net8.0\Billing.Sales.Backend.BusinessObjects.pdb
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Backend.BusinessObjects\bin\Debug\net8.0\Billing.Sales.Backend.BusinessObjects.deps.json
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Backend.BusinessObjects\bin\Debug\net8.0\Billing.Sales.Backend.BusinessObjects.dll
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Backend.BusinessObjects\bin\Debug\net8.0\Billing.Sales.Backend.BusinessObjects.pdb
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Backend.BusinessObjects\bin\Debug\net8.0\Billing.Sales.Entities.dll
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Backend.BusinessObjects\bin\Debug\net8.0\Billing.Sales.Entities.pdb
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Backend.BusinessObjects\obj\Debug\net8.0\Billing..9D750463.Up2Date
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Backend.BusinessObjects\obj\Debug\net8.0\ref\Billing.Sales.Backend.BusinessObjects.dll
