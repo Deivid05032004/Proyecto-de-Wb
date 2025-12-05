@@ -1,14 +1,90 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\",
+  "WorkspaceRootPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 1\\proyecto-de-wb\\billing.sales.backend.businessobjects\\pocoentities\\authentitie\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|solutionrelative:billing.sales.backend.businessobjects\\pocoentities\\authentitie\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 2\\proyecto-de-wb\\billing.sales.frontend\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|solutionrelative:billing.sales.frontend\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1248AF93-838B-473E-AAAB-CC4CFA6ECA32}|Billing.Sales.Backend.WebObjects\\Billing.Sales.Backend.WebObjects.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 1\\proyecto-de-wb\\billing.sales.backend.webobjects\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 2\\proyecto-de-wb\\billing.sales.frontend\\billing.sales.frontend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|solutionrelative:billing.sales.frontend\\billing.sales.frontend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 2\\proyecto-de-wb\\billing.sales.frontend\\shared\\loginlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|solutionrelative:billing.sales.frontend\\shared\\loginlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76D4AE83-F16E-49C8-AE97-42633ADD0B0D}|Billing.RazorComponent.WebApi\\Billing.RazorComponent.WebApi.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 2\\proyecto-de-wb\\billing.razorcomponent.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76D4AE83-F16E-49C8-AE97-42633ADD0B0D}|Billing.RazorComponent.WebApi\\Billing.RazorComponent.WebApi.csproj|solutionrelative:billing.razorcomponent.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76D4AE83-F16E-49C8-AE97-42633ADD0B0D}|Billing.RazorComponent.WebApi\\Billing.RazorComponent.WebApi.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 2\\proyecto-de-wb\\billing.razorcomponent.webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76D4AE83-F16E-49C8-AE97-42633ADD0B0D}|Billing.RazorComponent.WebApi\\Billing.RazorComponent.WebApi.csproj|solutionrelative:billing.razorcomponent.webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 2\\proyecto-de-wb\\billing.sales.frontend\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|solutionrelative:billing.sales.frontend\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 2\\proyecto-de-wb\\billing.sales.frontend\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|solutionrelative:billing.sales.frontend\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 2\\proyecto-de-wb\\billing.sales.frontend\\pages\\customers\\customerlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|solutionrelative:billing.sales.frontend\\pages\\customers\\customerlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 2\\proyecto-de-wb\\billing.sales.frontend\\pages\\customers\\customercreate.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|solutionrelative:billing.sales.frontend\\pages\\customers\\customercreate.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 2\\proyecto-de-wb\\billing.sales.frontend\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|solutionrelative:billing.sales.frontend\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 2\\proyecto-de-wb\\billing.sales.frontend\\pages\\customers\\customerupdate.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|solutionrelative:billing.sales.frontend\\pages\\customers\\customerupdate.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 2\\proyecto-de-wb\\billing.sales.frontend\\models\\customermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|solutionrelative:billing.sales.frontend\\models\\customermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1248AF93-838B-473E-AAAB-CC4CFA6ECA32}|Billing.Sales.Backend.WebObjects\\Billing.Sales.Backend.WebObjects.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 2\\proyecto-de-wb\\billing.sales.backend.webobjects\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1248AF93-838B-473E-AAAB-CC4CFA6ECA32}|Billing.Sales.Backend.WebObjects\\Billing.Sales.Backend.WebObjects.csproj|solutionrelative:billing.sales.backend.webobjects\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 2\\proyecto-de-wb\\billing.sales.frontend\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|solutionrelative:billing.sales.frontend\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 2\\proyecto-de-wb\\billing.sales.frontend\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|solutionrelative:billing.sales.frontend\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 2\\proyecto-de-wb\\billing.sales.frontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|solutionrelative:billing.sales.frontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 2\\proyecto-de-wb\\billing.sales.frontend\\providers\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|solutionrelative:billing.sales.frontend\\providers\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1248AF93-838B-473E-AAAB-CC4CFA6ECA32}|Billing.Sales.Backend.WebObjects\\Billing.Sales.Backend.WebObjects.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 2\\proyecto-de-wb\\billing.sales.backend.webobjects\\billing.sales.backend.webobjects.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1248AF93-838B-473E-AAAB-CC4CFA6ECA32}|Billing.Sales.Backend.WebObjects\\Billing.Sales.Backend.WebObjects.csproj|solutionrelative:billing.sales.backend.webobjects\\billing.sales.backend.webobjects.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 2\\proyecto-de-wb\\billing.sales.frontend\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F44851-441E-4558-BFB5-4AA38B0B9FE4}|Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj|solutionrelative:billing.sales.frontend\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 2\\proyecto-de-wb\\billing.sales.backend.businessobjects\\pocoentities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|solutionrelative:billing.sales.backend.businessobjects\\pocoentities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 2\\proyecto-de-wb\\billing.sales.backend.businessobjects\\pocoentities\\authentitie\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|solutionrelative:billing.sales.backend.businessobjects\\pocoentities\\authentitie\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +94,203 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Billing.Sales.FrontEnd",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj",
+              "RelativeDocumentMoniker": "Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj",
+              "RelativeToolTip": "Billing.Sales.FrontEnd\\Billing.Sales.FrontEnd.csproj",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-05T16:37:08.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginLayout.razor",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Shared\\LoginLayout.razor",
+              "RelativeDocumentMoniker": "Billing.Sales.FrontEnd\\Shared\\LoginLayout.razor",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Shared\\LoginLayout.razor",
+              "RelativeToolTip": "Billing.Sales.FrontEnd\\Shared\\LoginLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T16:27:39.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerModel.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Models\\CustomerModel.cs",
+              "RelativeDocumentMoniker": "Billing.Sales.FrontEnd\\Models\\CustomerModel.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Models\\CustomerModel.cs",
+              "RelativeToolTip": "Billing.Sales.FrontEnd\\Models\\CustomerModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:15:04.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Billing.Sales.FrontEnd\\Shared\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "Billing.Sales.FrontEnd\\Shared\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T16:03:32.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Billing.Sales.FrontEnd\\Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "Billing.Sales.FrontEnd\\Shared\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T16:02:46.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\App.razor",
+              "RelativeDocumentMoniker": "Billing.Sales.FrontEnd\\App.razor",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\App.razor",
+              "RelativeToolTip": "Billing.Sales.FrontEnd\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T16:00:55.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "Billing.Sales.FrontEnd\\Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "Billing.Sales.FrontEnd\\Pages\\_Host.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T15:59:40.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Providers\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Billing.Sales.FrontEnd\\Providers\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Providers\\DependencyInjection.cs",
+              "RelativeToolTip": "Billing.Sales.FrontEnd\\Providers\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T15:44:27.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Billing.Sales.Backend.WebObjects",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.Backend.WebObjects\\Billing.Sales.Backend.WebObjects.csproj",
+              "RelativeDocumentMoniker": "Billing.Sales.Backend.WebObjects\\Billing.Sales.Backend.WebObjects.csproj",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.Backend.WebObjects\\Billing.Sales.Backend.WebObjects.csproj",
+              "RelativeToolTip": "Billing.Sales.Backend.WebObjects\\Billing.Sales.Backend.WebObjects.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-05T15:43:35.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "Billing.Sales.FrontEnd\\Services\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Services\\CustomerService.cs",
+              "RelativeToolTip": "Billing.Sales.FrontEnd\\Services\\CustomerService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADgvxkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T15:40:56.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Startup.cs",
+              "RelativeDocumentMoniker": "Billing.Sales.FrontEnd\\Startup.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Startup.cs",
+              "RelativeToolTip": "Billing.Sales.FrontEnd\\Startup.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAwEgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T15:33:26.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\POCOEntities\\Customer.cs",
+              "RelativeDocumentMoniker": "Billing.Sales.Backend.BusinessObjects\\POCOEntities\\Customer.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\POCOEntities\\Customer.cs",
+              "RelativeToolTip": "Billing.Sales.Backend.BusinessObjects\\POCOEntities\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T15:36:16.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.RazorComponent.WebApi\\Startup.cs",
+              "RelativeDocumentMoniker": "Billing.RazorComponent.WebApi\\Startup.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.RazorComponent.WebApi\\Startup.cs",
+              "RelativeToolTip": "Billing.RazorComponent.WebApi\\Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T15:33:24.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.RazorComponent.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Billing.RazorComponent.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.RazorComponent.WebApi\\Program.cs",
+              "RelativeToolTip": "Billing.RazorComponent.WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T15:32:44.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Program.cs",
+              "RelativeDocumentMoniker": "Billing.Sales.FrontEnd\\Program.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Program.cs",
+              "RelativeToolTip": "Billing.Sales.FrontEnd\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T15:32:10.696Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -38,26 +309,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
+              "Title": "CustomerList.razor",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Pages\\Customers\\CustomerList.razor",
+              "RelativeDocumentMoniker": "Billing.Sales.FrontEnd\\Pages\\Customers\\CustomerList.razor",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Pages\\Customers\\CustomerList.razor",
+              "RelativeToolTip": "Billing.Sales.FrontEnd\\Pages\\Customers\\CustomerList.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T15:31:01.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomerUpdate.razor",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Pages\\Customers\\CustomerUpdate.razor",
+              "RelativeDocumentMoniker": "Billing.Sales.FrontEnd\\Pages\\Customers\\CustomerUpdate.razor",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Pages\\Customers\\CustomerUpdate.razor",
+              "RelativeToolTip": "Billing.Sales.FrontEnd\\Pages\\Customers\\CustomerUpdate.razor",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAACQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T15:30:44.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerCreate.razor",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Pages\\Customers\\CustomerCreate.razor",
+              "RelativeDocumentMoniker": "Billing.Sales.FrontEnd\\Pages\\Customers\\CustomerCreate.razor",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Pages\\Customers\\CustomerCreate.razor",
+              "RelativeToolTip": "Billing.Sales.FrontEnd\\Pages\\Customers\\CustomerCreate.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T15:30:10.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "Billing.Sales.FrontEnd\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.FrontEnd\\Pages\\Index.razor",
+              "RelativeToolTip": "Billing.Sales.FrontEnd\\Pages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T15:19:54.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\POCOEntities\\AuthEntitie\\LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\POCOEntities\\AuthEntitie\\LoginRequest.cs",
               "RelativeDocumentMoniker": "Billing.Sales.Backend.BusinessObjects\\POCOEntities\\AuthEntitie\\LoginRequest.cs",
-              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\POCOEntities\\AuthEntitie\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\POCOEntities\\AuthEntitie\\LoginRequest.cs",
               "RelativeToolTip": "Billing.Sales.Backend.BusinessObjects\\POCOEntities\\AuthEntitie\\LoginRequest.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T14:59:26.156Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.WebObjects\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.Backend.WebObjects\\Class1.cs",
               "RelativeDocumentMoniker": "Billing.Sales.Backend.WebObjects\\Class1.cs",
-              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.WebObjects\\Class1.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.Backend.WebObjects\\Class1.cs",
               "RelativeToolTip": "Billing.Sales.Backend.WebObjects\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T14:53:40.45Z",
               "EditorCaption": ""

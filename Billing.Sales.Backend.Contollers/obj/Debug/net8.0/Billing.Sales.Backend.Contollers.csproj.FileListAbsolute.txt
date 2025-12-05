@@ -34,3 +34,21 @@ C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backen
 C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backend.Contollers\obj\Debug\net8.0\refint\Billing.Sales.Backend.Contollers.dll
 C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backend.Contollers\obj\Debug\net8.0\Billing.Sales.Backend.Contollers.pdb
 C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Backend.Contollers\obj\Debug\net8.0\ref\Billing.Sales.Backend.Contollers.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.Backend.Contollers\bin\Debug\net8.0\Billing.Sales.Backend.Contollers.deps.json
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.Backend.Contollers\bin\Debug\net8.0\Billing.Sales.Backend.Contollers.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.Backend.Contollers\bin\Debug\net8.0\Billing.Sales.Backend.Contollers.pdb
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.Backend.Contollers\bin\Debug\net8.0\Billing.Sales.Backend.BusinessObjects.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.Backend.Contollers\bin\Debug\net8.0\Billing.Sales.Entities.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.Backend.Contollers\bin\Debug\net8.0\Billing.Sales.Backend.BusinessObjects.pdb
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.Backend.Contollers\bin\Debug\net8.0\Billing.Sales.Entities.pdb
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.Backend.Contollers\obj\Debug\net8.0\Billing.Sales.Backend.Contollers.csproj.AssemblyReference.cache
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.Backend.Contollers\obj\Debug\net8.0\Billing.Sales.Backend.Contollers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.Backend.Contollers\obj\Debug\net8.0\Billing.Sales.Backend.Contollers.AssemblyInfoInputs.cache
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.Backend.Contollers\obj\Debug\net8.0\Billing.Sales.Backend.Contollers.AssemblyInfo.cs
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.Backend.Contollers\obj\Debug\net8.0\Billing.Sales.Backend.Contollers.csproj.CoreCompileInputs.cache
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.Backend.Contollers\obj\Debug\net8.0\Billing.Sales.Backend.Contollers.sourcelink.json
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.Backend.Contollers\obj\Debug\net8.0\Billing..6DCE1B8F.Up2Date
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.Backend.Contollers\obj\Debug\net8.0\Billing.Sales.Backend.Contollers.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.Backend.Contollers\obj\Debug\net8.0\refint\Billing.Sales.Backend.Contollers.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.Backend.Contollers\obj\Debug\net8.0\Billing.Sales.Backend.Contollers.pdb
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.Backend.Contollers\obj\Debug\net8.0\ref\Billing.Sales.Backend.Contollers.dll

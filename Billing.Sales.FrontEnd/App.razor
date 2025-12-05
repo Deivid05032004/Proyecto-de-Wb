@@ -1,0 +1,13 @@
+﻿@* @using Billing.Sales.FrontEnd.Shared
+
+<Router AppAssembly="@typeof(Program).Assembly">
+    <Found Context="routeData">
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+    </Found>
+
+    <NotFound>
+        <LayoutView Layout="@typeof(MainLayout)">
+            <p>La página no existe.</p>
+        </LayoutView>
+    </NotFound>
+</Router> *@

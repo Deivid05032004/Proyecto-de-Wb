@@ -152,3 +152,17 @@ C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.FrontE
 C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.FrontEnd\obj\Debug\net8.0\Billing.Sales.FrontEnd.pdb
 C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.FrontEnd\obj\Debug\net8.0\Billing.Sales.FrontEnd.genruntimeconfig.cache
 C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.FrontEnd\obj\Debug\net8.0\ref\Billing.Sales.FrontEnd.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.FrontEnd\obj\Debug\net8.0\Billing.Sales.FrontEnd.csproj.AssemblyReference.cache
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.FrontEnd\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.FrontEnd\obj\Debug\net8.0\Billing.Sales.FrontEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.FrontEnd\obj\Debug\net8.0\Billing.Sales.FrontEnd.AssemblyInfoInputs.cache
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.FrontEnd\obj\Debug\net8.0\Billing.Sales.FrontEnd.AssemblyInfo.cs
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.FrontEnd\obj\Debug\net8.0\Billing.Sales.FrontEnd.csproj.CoreCompileInputs.cache
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.FrontEnd\obj\Debug\net8.0\Billing.Sales.FrontEnd.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.FrontEnd\obj\Debug\net8.0\Billing.Sales.FrontEnd.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.FrontEnd\obj\Debug\net8.0\Billing.Sales.FrontEnd.RazorAssemblyInfo.cache
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.FrontEnd\obj\Debug\net8.0\Billing.Sales.FrontEnd.RazorAssemblyInfo.cs
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.FrontEnd\obj\Debug\net8.0\Billing.Sales.FrontEnd.sourcelink.json
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.FrontEnd\obj\Debug\net8.0\Billing.Sales.FrontEnd.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.FrontEnd\obj\Debug\net8.0\refint\Billing.Sales.FrontEnd.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 2\Proyecto-de-Wb\Billing.Sales.FrontEnd\obj\Debug\net8.0\Billing.Sales.FrontEnd.pdb

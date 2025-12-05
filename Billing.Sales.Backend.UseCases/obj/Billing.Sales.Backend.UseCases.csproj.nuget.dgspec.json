@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.UseCases\\Billing.Sales.Backend.UseCases.csproj": {}
+    "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.Backend.UseCases\\Billing.Sales.Backend.UseCases.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj": {
+    "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj",
+        "projectUniqueName": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj",
         "projectName": "Billing.Sales.Backend.BusinessObjects",
-        "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj",
+        "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj",
         "packagesPath": "C:\\Users\\MY PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\obj\\",
+        "outputPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj": {
-                "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj"
+              "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj": {
+                "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.UseCases\\Billing.Sales.Backend.UseCases.csproj": {
+    "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.Backend.UseCases\\Billing.Sales.Backend.UseCases.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.UseCases\\Billing.Sales.Backend.UseCases.csproj",
+        "projectUniqueName": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.Backend.UseCases\\Billing.Sales.Backend.UseCases.csproj",
         "projectName": "Billing.Sales.Backend.UseCases",
-        "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.UseCases\\Billing.Sales.Backend.UseCases.csproj",
+        "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.Backend.UseCases\\Billing.Sales.Backend.UseCases.csproj",
         "packagesPath": "C:\\Users\\MY PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.UseCases\\obj\\",
+        "outputPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.Backend.UseCases\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -101,8 +101,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj": {
-                "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj"
+              "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj": {
+                "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj"
               }
             }
           }
@@ -148,14 +148,14 @@
         }
       }
     },
-    "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj": {
+    "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj",
         "projectName": "Billing.Sales.Entities",
-        "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj",
+        "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj",
         "packagesPath": "C:\\Users\\MY PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Business.Rules\\obj\\",
+        "outputPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 2\\Proyecto-de-Wb\\Billing.Sales.Business.Rules\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

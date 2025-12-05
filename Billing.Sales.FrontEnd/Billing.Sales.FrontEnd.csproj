@@ -16,10 +16,13 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Billing.Sales.Backend.IoC\Billing.Sales.Backend.IoC.csproj" />
+    <ProjectReference Include="..\Billing.Sales.Backend.WebObjects\Billing.Sales.Backend.WebObjects.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="Pages\Products\" />
+    <Folder Include="Pages\Orders\" />
   </ItemGroup>
 
 </Project>
