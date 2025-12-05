@@ -1,0 +1,6 @@
+@Billing.RazorComponent.WebApi_HostAddress = http://localhost:5149
+
+GET {{Billing.RazorComponent.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

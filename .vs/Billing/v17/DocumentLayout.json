@@ -3,72 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E4BEB33-5FE6-4AA1-9FA4-BF1AFB85517A}|Billing.Sales.Backend.UseCases\\Billing.Sales.Backend.UseCases.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\point-billing-new\\billing.sales.backend.usecases\\orderinteractor\\createorderinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4BEB33-5FE6-4AA1-9FA4-BF1AFB85517A}|Billing.Sales.Backend.UseCases\\Billing.Sales.Backend.UseCases.csproj|solutionrelative:billing.sales.backend.usecases\\orderinteractor\\createorderinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\point-billing-new\\billing.sales.backend.businessobjects\\aggregates\\orderaggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|solutionrelative:billing.sales.backend.businessobjects\\aggregates\\orderaggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2DDDD54-1056-4141-B559-1379B9C19717}|Billing.Sales.Backend.DataContext.EFCore\\Billing.Sales.Backend.DataContext.EFCore.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\point-billing-new\\billing.sales.backend.datacontext.efcore\\services\\orderdetailbillingsalescommandsdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2DDDD54-1056-4141-B559-1379B9C19717}|Billing.Sales.Backend.DataContext.EFCore\\Billing.Sales.Backend.DataContext.EFCore.csproj|solutionrelative:billing.sales.backend.datacontext.efcore\\services\\orderdetailbillingsalescommandsdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2DDDD54-1056-4141-B559-1379B9C19717}|Billing.Sales.Backend.DataContext.EFCore\\Billing.Sales.Backend.DataContext.EFCore.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\point-billing-new\\billing.sales.backend.datacontext.efcore\\services\\orderbillingsalescommandsdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2DDDD54-1056-4141-B559-1379B9C19717}|Billing.Sales.Backend.DataContext.EFCore\\Billing.Sales.Backend.DataContext.EFCore.csproj|solutionrelative:billing.sales.backend.datacontext.efcore\\services\\orderbillingsalescommandsdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB4F0D49-57E1-4F3A-8B42-932C9E85400B}|Billing.Sales.Backend.Presenters\\Billing.Sales.Backend.Presenters.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\point-billing-new\\billing.sales.backend.presenters\\orderspresenters\\createorderpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB4F0D49-57E1-4F3A-8B42-932C9E85400B}|Billing.Sales.Backend.Presenters\\Billing.Sales.Backend.Presenters.csproj|solutionrelative:billing.sales.backend.presenters\\orderspresenters\\createorderpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB4F0D49-57E1-4F3A-8B42-932C9E85400B}|Billing.Sales.Backend.Presenters\\Billing.Sales.Backend.Presenters.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\point-billing-new\\billing.sales.backend.presenters\\ordersdetailspresenters\\createorderdetailpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB4F0D49-57E1-4F3A-8B42-932C9E85400B}|Billing.Sales.Backend.Presenters\\Billing.Sales.Backend.Presenters.csproj|solutionrelative:billing.sales.backend.presenters\\ordersdetailspresenters\\createorderdetailpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA1C9034-DB7B-4E89-94E8-E2CD0A739710}|Billing.Sales.Fronend.Gateways\\Billing.Sales.Fronend.Gateways.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\point-billing-new\\billing.sales.fronend.gateways\\orderdetailgateway\\createorderdetailgateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA1C9034-DB7B-4E89-94E8-E2CD0A739710}|Billing.Sales.Fronend.Gateways\\Billing.Sales.Fronend.Gateways.csproj|solutionrelative:billing.sales.fronend.gateways\\orderdetailgateway\\createorderdetailgateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA1C9034-DB7B-4E89-94E8-E2CD0A739710}|Billing.Sales.Fronend.Gateways\\Billing.Sales.Fronend.Gateways.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\point-billing-new\\billing.sales.fronend.gateways\\ordergateway\\createordergateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA1C9034-DB7B-4E89-94E8-E2CD0A739710}|Billing.Sales.Fronend.Gateways\\Billing.Sales.Fronend.Gateways.csproj|solutionrelative:billing.sales.fronend.gateways\\ordergateway\\createordergateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83FAE984-D2AA-460C-A2C6-83E6DFEBE3B9}|Billing.Sales.Backend.Repositories\\Billing.Sales.Backend.Repositories.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\point-billing-new\\billing.sales.backend.repositories\\repositories\\orderdetailcommandsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83FAE984-D2AA-460C-A2C6-83E6DFEBE3B9}|Billing.Sales.Backend.Repositories\\Billing.Sales.Backend.Repositories.csproj|solutionrelative:billing.sales.backend.repositories\\repositories\\orderdetailcommandsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83FAE984-D2AA-460C-A2C6-83E6DFEBE3B9}|Billing.Sales.Backend.Repositories\\Billing.Sales.Backend.Repositories.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\point-billing-new\\billing.sales.backend.repositories\\repositories\\ordercommandsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83FAE984-D2AA-460C-A2C6-83E6DFEBE3B9}|Billing.Sales.Backend.Repositories\\Billing.Sales.Backend.Repositories.csproj|solutionrelative:billing.sales.backend.repositories\\repositories\\ordercommandsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E4BEB33-5FE6-4AA1-9FA4-BF1AFB85517A}|Billing.Sales.Backend.UseCases\\Billing.Sales.Backend.UseCases.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\point-billing-new\\billing.sales.backend.usecases\\orderdetailinteractor\\createorderdetailinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4BEB33-5FE6-4AA1-9FA4-BF1AFB85517A}|Billing.Sales.Backend.UseCases\\Billing.Sales.Backend.UseCases.csproj|solutionrelative:billing.sales.backend.usecases\\orderdetailinteractor\\createorderdetailinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\point-billing-new\\billing.sales.backend.businessobjects\\interfaces\\orderdetails\\iorderdetailouputport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|solutionrelative:billing.sales.backend.businessobjects\\interfaces\\orderdetails\\iorderdetailouputport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\point-billing-new\\billing.sales.backend.businessobjects\\interfaces\\orderdetails\\iorderdetailinputport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|solutionrelative:billing.sales.backend.businessobjects\\interfaces\\orderdetails\\iorderdetailinputport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\point-billing-new\\billing.sales.backend.businessobjects\\aggregates\\orderdetailaggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|solutionrelative:billing.sales.backend.businessobjects\\aggregates\\orderdetailaggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\point-billing-new\\billing.sales.backend.businessobjects\\pocoentities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|solutionrelative:billing.sales.backend.businessobjects\\pocoentities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\point-billing-new\\billing.sales.backend.businessobjects\\valueobjects\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|solutionrelative:billing.sales.backend.businessobjects\\valueobjects\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3427538-E2B6-4CFA-82CA-C42524BB1EF9}|Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\point-billing-new\\billing.sales.business.rules\\dtos\\valueobjects\\endpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3427538-E2B6-4CFA-82CA-C42524BB1EF9}|Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj|solutionrelative:billing.sales.business.rules\\dtos\\valueobjects\\endpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1248AF93-838B-473E-AAAB-CC4CFA6ECA32}|Billing.Sales.Backend.WebObjects\\Billing.Sales.Backend.WebObjects.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\point-billing-new\\billing.sales.backend.webobjects\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1248AF93-838B-473E-AAAB-CC4CFA6ECA32}|Billing.Sales.Backend.WebObjects\\Billing.Sales.Backend.WebObjects.csproj|solutionrelative:billing.sales.backend.webobjects\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,223 +34,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderDetailBillingSalesCommandsDataContext.cs",
-              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.DataContext.EFCore\\Services\\OrderDetailBillingSalesCommandsDataContext.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Backend.DataContext.EFCore\\Services\\OrderDetailBillingSalesCommandsDataContext.cs",
-              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.DataContext.EFCore\\Services\\OrderDetailBillingSalesCommandsDataContext.cs",
-              "RelativeToolTip": "Billing.Sales.Backend.DataContext.EFCore\\Services\\OrderDetailBillingSalesCommandsDataContext.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAA4wFwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T02:32:28.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderBillingSalesCommandsDataContext.cs",
-              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.DataContext.EFCore\\Services\\OrderBillingSalesCommandsDataContext.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Backend.DataContext.EFCore\\Services\\OrderBillingSalesCommandsDataContext.cs",
-              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.DataContext.EFCore\\Services\\OrderBillingSalesCommandsDataContext.cs",
-              "RelativeToolTip": "Billing.Sales.Backend.DataContext.EFCore\\Services\\OrderBillingSalesCommandsDataContext.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAcwFsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T02:32:19.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateOrderPresenter.cs",
-              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.Presenters\\OrdersPresenters\\CreateOrderPresenter.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Backend.Presenters\\OrdersPresenters\\CreateOrderPresenter.cs",
-              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.Presenters\\OrdersPresenters\\CreateOrderPresenter.cs",
-              "RelativeToolTip": "Billing.Sales.Backend.Presenters\\OrdersPresenters\\CreateOrderPresenter.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAIwDgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T02:31:10.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreateOrderDetailPresenter.cs",
-              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.Presenters\\OrdersDetailsPresenters\\CreateOrderDetailPresenter.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Backend.Presenters\\OrdersDetailsPresenters\\CreateOrderDetailPresenter.cs",
-              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.Presenters\\OrdersDetailsPresenters\\CreateOrderDetailPresenter.cs",
-              "RelativeToolTip": "Billing.Sales.Backend.Presenters\\OrdersDetailsPresenters\\CreateOrderDetailPresenter.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAqwEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T02:30:56.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CreateOrderGateway.cs",
-              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Fronend.Gateways\\OrderGateway\\CreateOrderGateway.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Fronend.Gateways\\OrderGateway\\CreateOrderGateway.cs",
-              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Fronend.Gateways\\OrderGateway\\CreateOrderGateway.cs",
-              "RelativeToolTip": "Billing.Sales.Fronend.Gateways\\OrderGateway\\CreateOrderGateway.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAwEMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T02:30:39.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateOrderDetailGateway.cs",
-              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Fronend.Gateways\\OrderDetailGateway\\CreateOrderDetailGateway.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Fronend.Gateways\\OrderDetailGateway\\CreateOrderDetailGateway.cs",
-              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Fronend.Gateways\\OrderDetailGateway\\CreateOrderDetailGateway.cs",
-              "RelativeToolTip": "Billing.Sales.Fronend.Gateways\\OrderDetailGateway\\CreateOrderDetailGateway.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAxwD8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T02:30:29.682Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OrderDetailCommandsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.Repositories\\Repositories\\OrderDetailCommandsRepository.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Backend.Repositories\\Repositories\\OrderDetailCommandsRepository.cs",
-              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.Repositories\\Repositories\\OrderDetailCommandsRepository.cs",
-              "RelativeToolTip": "Billing.Sales.Backend.Repositories\\Repositories\\OrderDetailCommandsRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAqwC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T02:30:13.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OrderCommandsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.Repositories\\Repositories\\OrderCommandsRepository.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Backend.Repositories\\Repositories\\OrderCommandsRepository.cs",
-              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.Repositories\\Repositories\\OrderCommandsRepository.cs",
-              "RelativeToolTip": "Billing.Sales.Backend.Repositories\\Repositories\\OrderCommandsRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAYwCwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T02:30:00.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CreateOrderDetailInteractor.cs",
-              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.UseCases\\OrderDetailInteractor\\CreateOrderDetailInteractor.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Backend.UseCases\\OrderDetailInteractor\\CreateOrderDetailInteractor.cs",
-              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.UseCases\\OrderDetailInteractor\\CreateOrderDetailInteractor.cs",
-              "RelativeToolTip": "Billing.Sales.Backend.UseCases\\OrderDetailInteractor\\CreateOrderDetailInteractor.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAkwD8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T02:29:27.628Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CreateOrderInteractor.cs",
-              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.UseCases\\OrderInteractor\\CreateOrderInteractor.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Backend.UseCases\\OrderInteractor\\CreateOrderInteractor.cs",
-              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.UseCases\\OrderInteractor\\CreateOrderInteractor.cs",
-              "RelativeToolTip": "Billing.Sales.Backend.UseCases\\OrderInteractor\\CreateOrderInteractor.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAswA8AAAAxAAAAAAAAAA==",
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.WebObjects\\Class1.cs",
+              "RelativeDocumentMoniker": "Billing.Sales.Backend.WebObjects\\Class1.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.WebObjects\\Class1.cs",
+              "RelativeToolTip": "Billing.Sales.Backend.WebObjects\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T02:29:08.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IOrderDetailOuputPort.cs",
-              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.BusinessObjects\\Interfaces\\OrderDetails\\IOrderDetailOuputPort.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Backend.BusinessObjects\\Interfaces\\OrderDetails\\IOrderDetailOuputPort.cs",
-              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.BusinessObjects\\Interfaces\\OrderDetails\\IOrderDetailOuputPort.cs",
-              "RelativeToolTip": "Billing.Sales.Backend.BusinessObjects\\Interfaces\\OrderDetails\\IOrderDetailOuputPort.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T02:27:42.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IOrderDetailInputPort.cs",
-              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.BusinessObjects\\Interfaces\\OrderDetails\\IOrderDetailInputPort.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Backend.BusinessObjects\\Interfaces\\OrderDetails\\IOrderDetailInputPort.cs",
-              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.BusinessObjects\\Interfaces\\OrderDetails\\IOrderDetailInputPort.cs",
-              "RelativeToolTip": "Billing.Sales.Backend.BusinessObjects\\Interfaces\\OrderDetails\\IOrderDetailInputPort.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T02:27:31.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "OrderDetailAggregate.cs",
-              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.BusinessObjects\\Aggregates\\OrderDetailAggregate.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Backend.BusinessObjects\\Aggregates\\OrderDetailAggregate.cs",
-              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.BusinessObjects\\Aggregates\\OrderDetailAggregate.cs",
-              "RelativeToolTip": "Billing.Sales.Backend.BusinessObjects\\Aggregates\\OrderDetailAggregate.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAADwvyQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T02:26:55.417Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "OrderDetail.cs",
-              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.BusinessObjects\\ValueObjects\\OrderDetail.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Backend.BusinessObjects\\ValueObjects\\OrderDetail.cs",
-              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.BusinessObjects\\ValueObjects\\OrderDetail.cs",
-              "RelativeToolTip": "Billing.Sales.Backend.BusinessObjects\\ValueObjects\\OrderDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T02:26:17.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.BusinessObjects\\POCOEntities\\Order.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Backend.BusinessObjects\\POCOEntities\\Order.cs",
-              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.BusinessObjects\\POCOEntities\\Order.cs",
-              "RelativeToolTip": "Billing.Sales.Backend.BusinessObjects\\POCOEntities\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T02:26:13.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderAggregate.cs",
-              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.BusinessObjects\\Aggregates\\OrderAggregate.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Backend.BusinessObjects\\Aggregates\\OrderAggregate.cs",
-              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.BusinessObjects\\Aggregates\\OrderAggregate.cs",
-              "RelativeToolTip": "Billing.Sales.Backend.BusinessObjects\\Aggregates\\OrderAggregate.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T02:26:01.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EndPoints.cs",
-              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Business.Rules\\Dtos\\ValueObjects\\EndPoints.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Business.Rules\\Dtos\\ValueObjects\\EndPoints.cs",
-              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Business.Rules\\Dtos\\ValueObjects\\EndPoints.cs",
-              "RelativeToolTip": "Billing.Sales.Business.Rules\\Dtos\\ValueObjects\\EndPoints.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T02:25:47.505Z",
+              "WhenOpened": "2025-12-05T14:53:40.45Z",
               "EditorCaption": ""
             }
           ]
