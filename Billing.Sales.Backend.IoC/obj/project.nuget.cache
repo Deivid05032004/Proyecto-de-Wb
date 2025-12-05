@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m7xGz1doCZs=",
+  "dgSpecHash": "8rt0hRs38wY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.IoC\\Billing.Sales.Backend.IoC.csproj",
+  "projectFilePath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.IoC\\Billing.Sales.Backend.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MY PC\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.1\\microsoft.entityframeworkcore.9.0.1.nupkg.sha512",
     "C:\\Users\\MY PC\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.1\\microsoft.entityframeworkcore.abstractions.9.0.1.nupkg.sha512",

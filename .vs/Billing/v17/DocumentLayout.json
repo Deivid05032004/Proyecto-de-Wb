@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\",
+  "WorkspaceRootPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1248AF93-838B-473E-AAAB-CC4CFA6ECA32}|Billing.Sales.Backend.WebObjects\\Billing.Sales.Backend.WebObjects.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\point-billing-new\\billing.sales.backend.webobjects\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 1\\proyecto-de-wb\\billing.sales.backend.businessobjects\\pocoentities\\authentitie\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|solutionrelative:billing.sales.backend.businessobjects\\pocoentities\\authentitie\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1248AF93-838B-473E-AAAB-CC4CFA6ECA32}|Billing.Sales.Backend.WebObjects\\Billing.Sales.Backend.WebObjects.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 1\\proyecto-de-wb\\billing.sales.backend.webobjects\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1248AF93-838B-473E-AAAB-CC4CFA6ECA32}|Billing.Sales.Backend.WebObjects\\Billing.Sales.Backend.WebObjects.csproj|solutionrelative:billing.sales.backend.webobjects\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -35,10 +39,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\POCOEntities\\AuthEntitie\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Billing.Sales.Backend.BusinessObjects\\POCOEntities\\AuthEntitie\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\POCOEntities\\AuthEntitie\\LoginRequest.cs",
+              "RelativeToolTip": "Billing.Sales.Backend.BusinessObjects\\POCOEntities\\AuthEntitie\\LoginRequest.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T14:59:26.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.WebObjects\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.WebObjects\\Class1.cs",
               "RelativeDocumentMoniker": "Billing.Sales.Backend.WebObjects\\Class1.cs",
-              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.WebObjects\\Class1.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.WebObjects\\Class1.cs",
               "RelativeToolTip": "Billing.Sales.Backend.WebObjects\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

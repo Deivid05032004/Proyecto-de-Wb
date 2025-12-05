@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fvb5Cz6i8A0=",
+  "dgSpecHash": "ew8L33YwOqI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.Repositories\\Billing.Sales.Backend.Repositories.csproj",
+  "projectFilePath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.Repositories\\Billing.Sales.Backend.Repositories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MY PC\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.9\\microsoft.extensions.dependencyinjection.abstractions.9.0.9.nupkg.sha512"
   ],

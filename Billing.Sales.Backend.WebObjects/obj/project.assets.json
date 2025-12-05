@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.WebObjects\\Billing.Sales.Backend.WebObjects.csproj",
+      "projectUniqueName": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.WebObjects\\Billing.Sales.Backend.WebObjects.csproj",
       "projectName": "Billing.Sales.Backend.WebObjects",
-      "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.WebObjects\\Billing.Sales.Backend.WebObjects.csproj",
+      "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.WebObjects\\Billing.Sales.Backend.WebObjects.csproj",
       "packagesPath": "C:\\Users\\MY PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Point-Billing-New\\Billing.Sales.Backend.WebObjects\\obj\\",
+      "outputPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 1\\Proyecto-de-Wb\\Billing.Sales.Backend.WebObjects\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
