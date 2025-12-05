@@ -21,3 +21,15 @@ C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Busine
 C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Business.Rules\obj\Debug\net8.0\refint\Billing.Sales.Entities.dll
 C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Business.Rules\obj\Debug\net8.0\Billing.Sales.Entities.pdb
 C:\Users\MY PC\source\repos\Nuevo Billing\Point-Billing-New\Billing.Sales.Business.Rules\obj\Debug\net8.0\ref\Billing.Sales.Entities.dll
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Business.Rules\obj\Debug\net8.0\Billing.Sales.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Business.Rules\obj\Debug\net8.0\Billing.Sales.Entities.AssemblyInfoInputs.cache
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Business.Rules\obj\Debug\net8.0\Billing.Sales.Entities.AssemblyInfo.cs
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Business.Rules\obj\Debug\net8.0\Billing.Sales.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Business.Rules\obj\Debug\net8.0\Billing.Sales.Entities.sourcelink.json
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Business.Rules\obj\Debug\net8.0\Billing.Sales.Entities.dll
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Business.Rules\obj\Debug\net8.0\refint\Billing.Sales.Entities.dll
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Business.Rules\obj\Debug\net8.0\Billing.Sales.Entities.pdb
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Business.Rules\bin\Debug\net8.0\Billing.Sales.Entities.deps.json
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Business.Rules\bin\Debug\net8.0\Billing.Sales.Entities.dll
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Business.Rules\bin\Debug\net8.0\Billing.Sales.Entities.pdb
+C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Business.Rules\obj\Debug\net8.0\ref\Billing.Sales.Entities.dll

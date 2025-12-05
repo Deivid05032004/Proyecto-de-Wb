@@ -21,4 +21,8 @@ public class EndPoints
     // ORDER DETAILS
     public const string OrderDetail = $"{BaseApi}/orderdetail";
     public const string OrderDetailById = $"{BaseApi}/orderdetail/{{id}}";
+
+    // USERS
+    public const string Users = $"{BaseApi}/users";
+    public const string UsersById = $"{BaseApi}/users/{{id}}";
 }
