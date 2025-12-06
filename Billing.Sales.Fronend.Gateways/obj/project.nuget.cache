@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jtN5rcqirAA=",
+  "dgSpecHash": "edNdcvqjiXA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Fronend.Gateways\\Billing.Sales.Fronend.Gateways.csproj",
+  "projectFilePath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 4\\Proyecto-de-Wb\\Billing.Sales.Fronend.Gateways\\Billing.Sales.Fronend.Gateways.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MY PC\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.9\\microsoft.extensions.configuration.9.0.9.nupkg.sha512",
     "C:\\Users\\MY PC\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.9\\microsoft.extensions.configuration.abstractions.9.0.9.nupkg.sha512",

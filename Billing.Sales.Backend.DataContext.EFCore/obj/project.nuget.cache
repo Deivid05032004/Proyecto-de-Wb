@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hAeBmy0oI6M=",
+  "dgSpecHash": "q/KST+XGLuU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Backend.DataContext.EFCore\\Billing.Sales.Backend.DataContext.EFCore.csproj",
+  "projectFilePath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 4\\Proyecto-de-Wb\\Billing.Sales.Backend.DataContext.EFCore\\Billing.Sales.Backend.DataContext.EFCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MY PC\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\MY PC\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

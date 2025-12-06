@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Backend.Contollers\\Billing.Sales.Backend.Contollers.csproj",
+      "projectUniqueName": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 4\\Proyecto-de-Wb\\Billing.Sales.Backend.Contollers\\Billing.Sales.Backend.Contollers.csproj",
       "projectName": "Billing.Sales.Backend.Contollers",
-      "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Backend.Contollers\\Billing.Sales.Backend.Contollers.csproj",
+      "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 4\\Proyecto-de-Wb\\Billing.Sales.Backend.Contollers\\Billing.Sales.Backend.Contollers.csproj",
       "packagesPath": "C:\\Users\\MY PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Backend.Contollers\\obj\\",
+      "outputPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 4\\Proyecto-de-Wb\\Billing.Sales.Backend.Contollers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -76,8 +76,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj": {
-              "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj"
+            "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 4\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj": {
+              "projectPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 4\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj"
             }
           }
         }

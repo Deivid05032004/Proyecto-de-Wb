@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Billing.Sales.FrontEndCode",
   "resources": {
-    "hash": "sha256-uSHZec5BOZZNey+u1oBo30NP1OOx10NXBLWK/Z4apkc=",
+    "hash": "sha256-RAE0asCJLDEujL7Q/TlBEgCFbtXMT9HZdSdCAUI8vk4=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-vtotCeXt2UD6oc459laJT32vBgigZ+eLoUmdeFkvYDk="
     },
@@ -210,10 +210,10 @@
       "mscorlib.wasm": "sha256-K9gNrsN9UmPqLs6J/FrkiKpmkVGnHjjqUsc7YGvesCY=",
       "netstandard.wasm": "sha256-4emjlXLM9qW3t2tlII20SDylBgG4ueI0wy9nh5FMd8g=",
       "System.Private.CoreLib.wasm": "sha256-2DN4v7I/tabltDEPdIO8sDBB0tY8zOm+0CvHbMssXW4=",
-      "Billing.Sales.FrontEndCode.wasm": "sha256-BHyqf2vzitrqoLvvMJV8031C6O/Bxop+Y6oLytF2vBA="
+      "Billing.Sales.FrontEndCode.wasm": "sha256-4jkaZqMIQbtRJp+9olulDY7Ere6Sns2EYHhGdewGY44="
     },
     "pdb": {
-      "Billing.Sales.FrontEndCode.pdb": "sha256-zXe8pR9Jqua4lHaFvAoj5DaLsOhVmfMEp90zCDbfLiw="
+      "Billing.Sales.FrontEndCode.pdb": "sha256-EBOqh5qYSeGxTbK+7qPM8RVrXqXLf7Y7/SNl129nJQ8="
     }
   },
   "cacheBootResources": true,

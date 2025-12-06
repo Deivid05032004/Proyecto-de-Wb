@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2RDJfI/s2gE=",
+  "dgSpecHash": "3nl/bskpzxw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.FronEndCode\\Billing.Sales.FrontEndCode.csproj",
+  "projectFilePath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 4\\Proyecto-de-Wb\\Billing.Sales.FronEndCode\\Billing.Sales.FrontEndCode.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MY PC\\.nuget\\packages\\blazored.localstorage\\4.5.0\\blazored.localstorage.4.5.0.nupkg.sha512",
     "C:\\Users\\MY PC\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.21\\microsoft.aspnetcore.authorization.8.0.21.nupkg.sha512",

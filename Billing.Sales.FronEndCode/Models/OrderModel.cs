@@ -1,7 +1,6 @@
 ﻿// Billing.Sales.FrontEndCode/Models/OrderModels.cs
 namespace Billing.Sales.FrontEndCode.Models
 {
-    // Modelo que usa el formulario (solo para mostrar los campos clave de la orden)
     public class OrderModel
     {
         public int Id { get; set; }

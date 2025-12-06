@@ -57,6 +57,7 @@ namespace Billing.Sales.Backend.Contollers.CreateProduct
             {
                 ouputPort.ProductById.Id,
                 ouputPort.ProductById.Name,
+                ouputPort.ProductById.Brand,
                 ouputPort.ProductById.Presentation,
                 ouputPort.ProductById.Price,
                 ouputPort.ProductById.Stock

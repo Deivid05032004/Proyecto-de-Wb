@@ -6,7 +6,7 @@ namespace Billing.Sales.FrontEndCode.Models
     {
         public int CustomerId { get; set; }
         public string InvoiceNumber { get; set; } = "";
-        public DateTime OrderDate { get; set; } = DateTime.UtcNow;
+        public DateTime Date { get; set; } = DateTime.UtcNow;
         public decimal Total { get; set; }
 
         public List<OrderDetailCreateDto> OrderDetails { get; set; } = new();
