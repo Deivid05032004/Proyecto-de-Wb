@@ -1,0 +1,807 @@
+﻿@page "/orders"
+@using Billing.Sales.FrontEndCode.Models
+@using Billing.Sales.FrontEndCode.Services
+@inject CustomerService customerService
+@inject ProductService productService
+@inject OrderService orderService
+@inject IJSRuntime JS
+
+@* ===========================
+   NUEVA VENTA - Página Orders
+   ===========================
+
+*@
+
+<div class="container mt-3">
+    <h2 class="mb-4">Nueva Venta</h2>
+
+    <!-- ==========================
+         ENCABEZADO: FACTURA + CLIENTE
+         ========================== -->
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header bg-primary text-white">
+            Datos del Cliente & Factura
+        </div>
+        <div class="card-body">
+            <!-- fila superior: factura | fecha | buscar cliente -->
+            <div class="row g-3 mb-3">
+                <div class="col-md-4">
+                    <label class="form-label">Nº Factura</label>
+                    <input class="form-control" readonly value="@orderModel.InvoiceNumber" />
+                </div>
+
+                <div class="col-md-4">
+                    <label class="form-label">Fecha</label>
+                    <input type="datetime-local"
+                           class="form-control"
+                           @bind="orderModel.Date"
+                           @bind:format="yyyy-MM-ddTHH:mm"
+                           readonly />
+
+                </div>
+
+                <div class="col-md-4 d-flex align-items-end">
+                    <button class="btn btn-outline-light btn-lg w-100 text-primary fw-bold border"
+                            @onclick="OpenCustomerModal">
+                        <i class="bi bi-search me-2"></i> Buscar Cliente
+                    </button>
+                </div>
+            </div>
+
+            <!-- fila con datos del cliente: todos los campos, etiquetas arriba -->
+            <div class="row g-3">
+                <div class="col-md-3">
+                    <label class="form-label">ID (BD)</label>
+                    <input class="form-control" readonly value="@orderModel.CustomerId" />
+                </div>
+
+                <div class="col-md-3">
+                    <label class="form-label">Cédula / RUC</label>
+                    <input class="form-control" readonly value="@orderModel.CustomerIdentificationNumber" />
+                </div>
+
+                <div class="col-md-3">
+                    <label class="form-label">Nombres</label>
+                    <input class="form-control" readonly value="@orderModel.CustomerFirstName" />
+                </div>
+
+                <div class="col-md-3">
+                    <label class="form-label">Apellidos</label>
+                    <input class="form-control" readonly value="@orderModel.CustomerLastName" />
+                </div>
+
+                <div class="col-md-4">
+                    <label class="form-label">Dirección</label>
+                    <input class="form-control" readonly value="@orderModel.CustomerAddress" />
+                </div>
+
+                <div class="col-md-4">
+                    <label class="form-label">Teléfono</label>
+                    <input class="form-control" readonly value="@orderModel.CustomerPhoneNumber" />
+                </div>
+
+                <div class="col-md-4">
+                    <label class="form-label">Email</label>
+                    <input class="form-control" readonly value="@orderModel.CustomerEmailAddress" />
+                </div>
+
+                <div class="col-md-4">
+                    <label class="form-label">Ciudad</label>
+                    <input class="form-control" readonly value="@orderModel.CustomerCity" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================
+         PRODUCTOS: boton buscar + bloque producto seleccionado
+         ========================== -->
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header bg-success text-white">
+            Productos
+        </div>
+        <div class="card-body">
+            <div class="row g-3">
+                <!-- boton unico para abrir modal productos -->
+                <div class="col-md-3">
+                    <button class="btn btn-success w-100 fw-bold" @onclick="OpenProductModal">
+                        <i class="bi bi-search me-2"></i> Buscar Producto
+                    </button>
+                </div>
+
+                <!-- bloque con los campos del producto seleccionado (si hay) -->
+                <div class="col-md-9">
+                    <div class="row g-2">
+                        <div class="col-md-3">
+                            <label class="form-label">Id</label>
+                            <input class="form-control" readonly value="@(selectedProduct?.Id.ToString() ?? "")" />
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label">Nombre</label>
+                            <input class="form-control" readonly value="@(selectedProduct?.Name ?? "")" />
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label">Marca</label>
+                            <input class="form-control" readonly value="@(selectedProduct?.Brand ?? "")" />
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label">Presentación</label>
+                            <input class="form-control" readonly value="@(selectedProduct?.Presentation ?? "")" />
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label">Precio (U.)</label>
+                            <input class="form-control text-end" readonly value="@(selectedProduct != null ? selectedProduct.Price.ToString("N2") : "")" />
+                        </div>
+
+                        <div class="col-md-2">
+                            <label class="form-label">Stock</label>
+                            <input class="form-control text-end" readonly value="@(selectedProduct != null ? selectedProduct.Stock.ToString() : "")" />
+                        </div>
+
+                        <div class="col-md-2">
+                            <label class="form-label">Cantidad</label>
+                            <input type="number" min="1" class="form-control text-end"
+                                   @bind="selectedQuantity"
+                                   @bind:event="oninput" />
+                        </div>
+
+                        <div class="col-md-2 d-flex align-items-end">
+                            <button class="btn btn-primary w-100" @onclick="AddSelectedProduct">
+                                <i class="bi bi-plus-circle me-1"></i> Agregar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================
+         DETALLE Y RESUMEN (dos columnas)
+         ========================== -->
+    <div class="row gx-3">
+        <!-- detalle -->
+        <div class="col-md-8">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header bg-dark text-white">Detalle de Venta</div>
+                <div class="card-body p-0">
+                    <div style="max-height:420px; overflow:auto;">
+                        <table class="table table-sm table-hover mb-0">
+                            <thead class="table-light">
+                                <tr>
+                                    <th class="text-start">ID</th>
+                                    <th class="text-start">Producto</th>
+                                    <th class="text-start">Marca</th>
+                                    <th class="text-start">Presentación</th>
+                                    <th class="text-end">Precio U.</th>
+                                    <th class="text-end">Cantidad</th>
+                                    <th class="text-end">Total</th>
+                                    <th class="text-center">Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (!orderDetails.Any())
+                                {
+                                    <tr>
+                                        <td colspan="8" class="text-center text-muted py-4">No hay productos agregados</td>
+                                    </tr>
+                                }
+                                else
+                                {
+                                    @foreach (var d in orderDetails)
+                                    {
+                                        <tr>
+                                            <td class="text-start">@d.ProductId</td>
+                                            <td class="text-start">@d.ProductName</td>
+                                            <td class="text-start">@d.ProductBrand</td>
+                                            <td class="text-start">@d.ProductPresentation</td>
+
+                                            <td class="text-end numeric-col">@d.UnitPrice.ToString("N2")</td>
+
+                                            <td class="text-end" style="width:120px;">
+                                                <input class="form-control form-control-sm text-end"
+                                                       type="number"
+                                                       min="1"
+                                                       value="@d.Quantity"
+                                                       @onchange="(e) => OnQuantityChange(d, e.Value?.ToString())"
+                                                       style="width:90px; display:inline-block;" />
+                                            </td>
+
+                                            <td class="text-end numeric-col">@d.TotalPrice.ToString("N2")</td>
+
+                                            <td class="text-center">
+                                                <button class="btn btn-sm btn-danger" @onclick="() => RemoveLine(d.ProductId)">
+                                                    <i class="bi bi-trash"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- resumen -->
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header bg-secondary text-white">Resumen</div>
+                <div class="card-body">
+                    <div class="d-flex justify-content-between mb-2">
+                        <div>Subtotal</div>
+                        <div class="text-end fw-monospace">@Subtotal.ToString("N2")</div>
+                    </div>
+                    <div class="d-flex justify-content-between mb-2">
+                        <div>IVA (15%)</div>
+                        <div class="text-end fw-monospace">@Tax.ToString("N2")</div>
+                    </div>
+                    <hr />
+                    <div class="d-flex justify-content-between mb-3 fw-bold fs-5">
+                        <div>Total</div>
+                        <div class="text-end fw-monospace">@Total.ToString("N2")</div>
+                    </div>
+
+                    <button class="btn btn-success w-100 mb-2" @onclick="SaveOrder" disabled="@(!CanSave)">
+                        <i class="bi bi-save me-2"></i> Guardar Venta
+                    </button>
+
+                    <button class="btn btn-outline-secondary w-100" @onclick="ClearAll">
+                        Limpiar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ==========================
+     MODAL: SELECCIONAR CLIENTE (overlay con paginación + búsqueda)
+     ========================== -->
+@if (showCustomerModal)
+{
+    <div class="modal-backdrop d-block"></div>
+    <div class="modal d-block" tabindex="-1" style="display:block;">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Seleccionar Cliente</h5>
+                    <button type="button" class="btn-close" @onclick="CloseCustomerModal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="mb-2 d-flex">
+                        <input class="form-control me-2" placeholder="Buscar (id, cédula, nombre, email, teléfono)" @bind="customerSearchText" @bind:event="oninput" />
+                        <button class="btn btn-outline-secondary" @onclick="ClearCustomerSearch">✕</button>
+                    </div>
+
+                    <div style="max-height:420px; overflow:auto;">
+                        <table class="table table-sm table-hover">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Cédula</th>
+                                    <th>Nombres</th>
+                                    <th>Apellidos</th>
+                                    <th>Email</th>
+                                    <th>Teléfono</th>
+                                    <th>Ciudad</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (customerPaged.Count == 0)
+                                {
+                                    <tr><td colspan="7" class="text-center text-muted">No hay registros</td></tr>
+                                }
+                                else
+                                {
+                                    @foreach (var c in customerPaged)
+                                    {
+                                        <tr style="cursor:pointer" @onclick="() => PickCustomer(c)">
+                                            <td>@c.Id</td>
+                                            <td>@c.IdentificationNumber</td>
+                                            <td>@c.FirstName</td>
+                                            <td>@c.LastName</td>
+                                            <td>@c.EmailAddress</td>
+                                            <td>@c.PhoneNumber</td>
+                                            <td>@c.City</td>
+                                        </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-2">
+                        <div>
+                            <button class="btn btn-secondary" @onclick="CustomerPrev" disabled="@(!CustomerCanPrev)">Anterior</button>
+                            <button class="btn btn-secondary" @onclick="CustomerNext" disabled="@(!CustomerCanNext)">Siguiente</button>
+                        </div>
+                        <small class="text-muted">Página @customerPage de @customerTotalPages</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<!-- ==========================
+     MODAL: SELECCIONAR PRODUCTO
+     ========================== -->
+@if (showProductModal)
+{
+    <div class="modal-backdrop d-block"></div>
+    <div class="modal d-block" tabindex="-1" style="display:block;">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Seleccionar Producto</h5>
+                    <button type="button" class="btn-close" @onclick="CloseProductModal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="mb-2 d-flex">
+                        <input class="form-control me-2" placeholder="Buscar (nombre, marca)" @bind="productModalSearch" @bind:event="oninput" />
+                        <button class="btn btn-outline-secondary" @onclick="ClearProductModalSearch">✕</button>
+                    </div>
+
+                    <div style="max-height:420px; overflow:auto;">
+                        <table class="table table-sm table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Nombre</th>
+                                    <th>Marca</th>
+                                    <th>Presentación</th>
+                                    <th class="text-end">Precio</th>
+                                    <th class="text-end">Stock</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (productModalPaged.Count == 0)
+                                {
+                                    <tr><td colspan="6" class="text-center text-muted">No hay registros</td></tr>
+                                }
+                                else
+                                {
+                                    @foreach (var p in productModalPaged)
+                                    {
+                                        <tr style="cursor:pointer" @onclick="() => PickProduct(p)">
+                                            <td>@p.Id</td>
+                                            <td>@p.Name</td>
+                                            <td>@p.Brand</td>
+                                            <td>@p.Presentation</td>
+                                            <td class="text-end numeric-col">@p.Price.ToString("N2")</td>
+                                            <td class="text-end">@p.Stock</td>
+                                        </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-2">
+                        <div>
+                            <button class="btn btn-secondary" @onclick="ProductPrev" disabled="@(!ProductCanPrev)">Anterior</button>
+                            <button class="btn btn-secondary" @onclick="ProductNext" disabled="@(!ProductCanNext)">Siguiente</button>
+                        </div>
+                        <small class="text-muted">Página @productPage de @productTotalPages</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<style>
+    /* alineación numérica y monospace para columnas numéricas */
+    .numeric-col {
+        text-align: right;
+        font-variant-numeric: tabular-nums;
+    }
+
+    /* Modal overlay custom (cuando usamos markup en lugar de bootstrap.js) */
+    .modal-backdrop.d-block {
+        z-index: 1040;
+        opacity: .5;
+        position: fixed;
+        inset: 0;
+        background: black;
+    }
+
+    .modal.d-block {
+        z-index: 1050;
+        position: fixed;
+        inset: 0;
+        overflow: auto;
+        display: flex;
+        align-items: flex-start;
+        padding-top: 30px;
+    }
+</style>
+
+@code {
+    // ---------------------------
+    // MODELOS LOCALES
+    // ---------------------------
+    OrderModel orderModel = new();
+    List<OrderDetailFrontModel> orderDetails = new();
+
+    ProductModel? selectedProduct = null;
+    int selectedQuantity = 1;
+
+    // modales
+    bool showCustomerModal = false;
+    bool showProductModal = false;
+
+    // búsqueda y paginación (clientes)
+    string customerSearchText = "";
+    List<CustomerModel> customerList = new();
+    List<CustomerModel> customerPaged = new();
+    int customerPage = 1;
+    int customerPageSize = 8;
+    int customerTotalPages = 1;
+    bool CustomerCanPrev => customerPage > 1;
+    bool CustomerCanNext => customerPage < customerTotalPages;
+
+    // búsqueda y paginación (productos)
+    string productModalSearch = "";
+    List<ProductModel> productModalList = new();
+    List<ProductModel> productModalPaged = new();
+    int productPage = 1;
+    int productPageSize = 8;
+    int productTotalPages = 1;
+    bool ProductCanPrev => productPage > 1;
+    bool ProductCanNext => productPage < productTotalPages;
+
+    // Totales
+    decimal Subtotal => orderDetails.Sum(x => x.TotalPrice);
+    decimal Tax => Math.Round(Subtotal * 0.15m, 2);
+    decimal Total => Subtotal + Tax;
+    bool CanSave => orderDetails.Any() && orderModel.CustomerId > 0;
+
+    // ---------------------------
+    // LIFECYCLE
+    // ---------------------------
+    protected override async Task OnInitializedAsync()
+    {
+        // Generar número de factura inicial
+        await GenerateInvoiceNumber();
+        orderModel.Date = DateTime.UtcNow;
+
+        // Cargar listas para modals (puedes cambiar a carga lazy si quieres)
+        await LoadCustomers();
+        await LoadProducts();
+    }
+
+    private void OnDateChanged(DateTime value)
+    {
+        if (value == default || value == DateTime.MinValue)
+            orderModel.Date = DateTime.UtcNow;
+        else
+            orderModel.Date = value;
+    }
+    // ---------------------------
+    // INVOICE NUMBER: obtiene última orden y suma 1 (fallback con timestamp)
+    // ---------------------------
+    private async Task GenerateInvoiceNumber()
+    {
+        try
+        {
+            var orders = await orderService.GetAllAsync();
+            int lastId = orders.Any() ? orders.Max(o => o.Id) : 0;
+            int next = lastId + 1;
+            orderModel.InvoiceNumber = next.ToString("D8");
+            orderModel.Date = DateTime.UtcNow;
+        }
+        catch
+        {
+            orderModel.InvoiceNumber = DateTime.UtcNow.Ticks.ToString();
+            orderModel.Date = DateTime.UtcNow;
+        }
+    }
+
+    // ---------------------------
+    // CARGAR CLIENTES + PAGINACIÓN
+    // ---------------------------
+    private async Task LoadCustomers()
+    {
+        var all = await customerService.GetAllAsync();
+        customerList = all ?? new();
+        ApplyCustomerPagination();
+    }
+
+    private void ApplyCustomerPagination()
+    {
+        var filtered = string.IsNullOrWhiteSpace(customerSearchText)
+            ? customerList
+            : customerList.Where(c =>
+                c.Id.ToString().Contains(customerSearchText.Trim()) ||
+                (c.IdentificationNumber?.Contains(customerSearchText.Trim(), StringComparison.OrdinalIgnoreCase) == true) ||
+                (c.FirstName?.Contains(customerSearchText.Trim(), StringComparison.OrdinalIgnoreCase) == true) ||
+                (c.LastName?.Contains(customerSearchText.Trim(), StringComparison.OrdinalIgnoreCase) == true) ||
+                (c.EmailAddress?.Contains(customerSearchText.Trim(), StringComparison.OrdinalIgnoreCase) == true) ||
+                (c.PhoneNumber?.Contains(customerSearchText.Trim(), StringComparison.OrdinalIgnoreCase) == true)
+            ).ToList();
+
+        customerTotalPages = Math.Max(1, (int)Math.Ceiling(filtered.Count / (double)customerPageSize));
+        customerPaged = filtered.Skip((customerPage - 1) * customerPageSize).Take(customerPageSize).ToList();
+    }
+
+    private void CustomerNext() { if (CustomerCanNext) { customerPage++; ApplyCustomerPagination(); } }
+    private void CustomerPrev() { if (CustomerCanPrev) { customerPage--; ApplyCustomerPagination(); } }
+    private void ClearCustomerSearch() { customerSearchText = ""; customerPage = 1; ApplyCustomerPagination(); }
+
+    // ---------------------------
+    // CARGAR PRODUCTOS + PAGINACIÓN (modal)
+    // ---------------------------
+    private async Task LoadProducts()
+    {
+        var all = await productService.GetAllAsync();
+        productModalList = all ?? new();
+        ApplyProductPagination();
+    }
+
+    private void ApplyProductPagination()
+    {
+        var filtered = string.IsNullOrWhiteSpace(productModalSearch)
+            ? productModalList
+            : productModalList.Where(p =>
+                (p.Name?.Contains(productModalSearch.Trim(), StringComparison.OrdinalIgnoreCase) == true) ||
+                (p.Brand?.Contains(productModalSearch.Trim(), StringComparison.OrdinalIgnoreCase) == true)
+            ).ToList();
+
+        productTotalPages = Math.Max(1, (int)Math.Ceiling(filtered.Count / (double)productPageSize));
+        productModalPaged = filtered.Skip((productPage - 1) * productPageSize).Take(productPageSize).ToList();
+    }
+
+    private void ProductNext() { if (ProductCanNext) { productPage++; ApplyProductPagination(); } }
+    private void ProductPrev() { if (ProductCanPrev) { productPage--; ApplyProductPagination(); } }
+    private void ClearProductModalSearch() { productModalSearch = ""; productPage = 1; ApplyProductPagination(); }
+
+    // ---------------------------
+    // MODALES: abrir / cerrar
+    // ---------------------------
+    void OpenCustomerModal() { showCustomerModal = true; customerPage = 1; ApplyCustomerPagination(); }
+    void CloseCustomerModal() { showCustomerModal = false; }
+
+    void OpenProductModal() { showProductModal = true; productPage = 1; ApplyProductPagination(); }
+    void CloseProductModal() { showProductModal = false; }
+
+    // ---------------------------
+    // SELECCIONAR CLIENTE: rellena todos los campos visibles del encabezado
+    // ---------------------------
+    private async Task PickCustomer(CustomerModel c)
+    {
+        orderModel.CustomerId = c.Id;
+        orderModel.CustomerIdentificationNumber = c.IdentificationNumber;
+        orderModel.CustomerFirstName = c.FirstName;
+        orderModel.CustomerLastName = c.LastName;
+        orderModel.CustomerAddress = c.Address;
+        orderModel.CustomerEmailAddress = c.EmailAddress;
+        orderModel.CustomerPhoneNumber = c.PhoneNumber;
+        orderModel.CustomerCity = c.City;
+
+        showCustomerModal = false;
+        await JS.InvokeVoidAsync("SwalMessages.success", "Cliente seleccionado.");
+    }
+
+    // ---------------------------
+    // SELECCIONAR PRODUCTO desde modal: lo deja en selectedProduct (campos muestran info)
+    // ---------------------------
+    private void PickProduct(ProductModel p)
+    {
+        selectedProduct = p;
+        selectedQuantity = 1;
+        showProductModal = false;
+        // notificación breve
+        _ = JS.InvokeVoidAsync("SwalMessages.info", "Producto cargado en el formulario (ajusta cantidad y pulsa Agregar).");
+    }
+
+    // ---------------------------
+    // AGREGAR PRODUCTO SELECCIONADO AL DETALLE
+    // - valida cantidad (>0), que no exceda stock disponible teniendo en cuenta lo que ya está en el detalle.
+    // - si ya existe la linea -> suma cantidad (no duplicar filas)
+    // ---------------------------
+    private async Task AddSelectedProduct()
+    {
+        if (selectedProduct == null)
+        {
+            await JS.InvokeVoidAsync("SwalMessages.warning", "Selecciona primero un producto.");
+            return;
+        }
+
+        if (selectedQuantity <= 0)
+        {
+            await JS.InvokeVoidAsync("SwalMessages.warning", "La cantidad debe ser mayor que 0.");
+            return;
+        }
+
+        // stock disponible teniendo en cuenta lo que ya haya en el detalle
+        int already = orderDetails.Where(x => x.ProductId == selectedProduct.Id).Sum(x => x.Quantity);
+        int available = selectedProduct.Stock - already;
+        if (selectedQuantity > available)
+        {
+            await JS.InvokeVoidAsync("SwalMessages.error", $"No hay suficiente stock. Disponible: {available}");
+            return;
+        }
+
+        // si existe la linea -> sumar cantidad
+        var existing = orderDetails.FirstOrDefault(x => x.ProductId == selectedProduct.Id);
+        if (existing != null)
+        {
+            existing.Quantity += selectedQuantity;
+            existing.TotalPrice = Math.Round(existing.UnitPrice * existing.Quantity, 2);
+        }
+        else
+        {
+            orderDetails.Add(new OrderDetailFrontModel
+            {
+                ProductId = selectedProduct.Id,
+                ProductName = selectedProduct.Name,
+                ProductBrand = selectedProduct.Brand,
+                ProductPresentation = selectedProduct.Presentation,
+                UnitPrice = (decimal)selectedProduct.Price,
+                Quantity = selectedQuantity,
+                TotalPrice = Math.Round((decimal)selectedProduct.Price * selectedQuantity, 2)
+            });
+        }
+
+        // reset selección
+        selectedProduct = null;
+        selectedQuantity = 1;
+
+        await JS.InvokeVoidAsync("SwalMessages.success", "Producto agregado al detalle.");
+    }
+
+    // ---------------------------
+    // Cambiar cantidad desde la tabla (input onchange)
+    // - valida entero
+    // - valida >0
+    // - valida stock en servidor (considera otras líneas)
+    // ---------------------------
+    private async Task OnQuantityChange(OrderDetailFrontModel detail, string? value)
+    {
+        if (!int.TryParse(value, out int qty))
+        {
+            await JS.InvokeVoidAsync("SwalMessages.warning", "Cantidad inválida.");
+            return;
+        }
+
+        if (qty <= 0)
+        {
+            await JS.InvokeVoidAsync("SwalMessages.warning", "Cantidad debe ser mayor que 0.");
+            return;
+        }
+
+        // pedir stock actualizado del producto
+        var prod = await productService.GetAsync(detail.ProductId);
+        if (prod == null)
+        {
+            await JS.InvokeVoidAsync("SwalMessages.error", "Producto no existe en servidor.");
+            return;
+        }
+
+        // cantidad reservada en otras líneas
+        int otherQty = orderDetails.Where(d => d.ProductId == detail.ProductId && d != detail).Sum(d => d.Quantity);
+        int available = prod.Stock - otherQty;
+        if (qty > available)
+        {
+            await JS.InvokeVoidAsync("SwalMessages.error", $"No hay suficiente stock. Disponible: {available}");
+            return;
+        }
+
+        // actualizar
+        detail.Quantity = qty;
+        detail.TotalPrice = Math.Round(detail.UnitPrice * detail.Quantity, 2);
+        await JS.InvokeVoidAsync("SwalMessages.success", "Cantidad actualizada.");
+    }
+
+    // ---------------------------
+    // Remover linea del detalle
+    // ---------------------------
+    private async Task RemoveLine(int productId)
+    {
+        var confirmed = await JS.InvokeAsync<bool>("SwalMessages.confirm", "¿Eliminar este producto del detalle?");
+        if (!confirmed) return;
+
+        var existing = orderDetails.FirstOrDefault(x => x.ProductId == productId);
+        if (existing != null)
+        {
+            orderDetails.Remove(existing);
+            await JS.InvokeVoidAsync("SwalMessages.success", "Producto eliminado del detalle.");
+        }
+    }
+
+    // ---------------------------
+    // Guardar la orden (DTO -> backend)
+    // - valida cliente seleccionado y al menos 1 linea
+    // - llama orderService.CreateAsync(dto)
+    // - luego, opcionalmente, actualiza stock en backend si tu API no lo hace
+    // ---------------------------
+    private async Task SaveOrder()
+    {
+        if (orderModel.CustomerId == 0)
+        {
+            await JS.InvokeVoidAsync("SwalMessages.warning", "Selecciona un cliente antes de guardar.");
+            return;
+        }
+
+        if (!orderDetails.Any())
+        {
+            await JS.InvokeVoidAsync("SwalMessages.warning", "Agrega al menos un producto al detalle.");
+            return;
+        }
+
+        // construir DTO (ajusta nombres de DTO según tu proyecto)
+        var dto = new OrderCreateDto
+        {
+            CustomerId = orderModel.CustomerId,
+            InvoiceNumber = orderModel.InvoiceNumber,
+            OrderDate = orderModel.Date,
+            Total = Total,
+            OrderDetails = orderDetails.Select(x => new OrderDetailCreateDto
+            {
+                ProductId = x.ProductId,
+                Quantity = x.Quantity,
+                UnitPrice = x.UnitPrice,
+                TotalPrice = x.TotalPrice
+            }).ToList()
+        };
+
+        bool ok = await orderService.CreateAsync(dto);
+        if (!ok)
+        {
+            await JS.InvokeVoidAsync("SwalMessages.error", "Error al guardar la venta en el servidor.");
+            return;
+        }
+
+        // Si tu API NO descuenta stock automáticamente, descomenta este bloque (ejemplo)
+        foreach (var line in orderDetails)
+        {
+            var prod = await productService.GetAsync(line.ProductId);
+            if (prod != null)
+            {
+                prod.Stock -= line.Quantity;
+                if (prod.Stock < 0) prod.Stock = 0;
+                await productService.UpdateAsync(prod);
+            }
+        }
+
+        await JS.InvokeVoidAsync("SwalMessages.success", "Venta guardada correctamente.");
+        ClearAll();
+        await GenerateInvoiceNumber();
+        await LoadProducts();
+        await LoadCustomers();
+    }
+
+    // ---------------------------
+    // Limpiar todo (reiniciar)
+    // ---------------------------
+    private void ClearAll()
+    {
+        orderDetails.Clear();
+        orderModel = new OrderModel
+        {
+            Date = DateTime.UtcNow
+        };
+        selectedProduct = null;
+        selectedQuantity = 1;
+    }
+
+    // ---------------------------
+    // Helpers: Pick wrappers para los modals (ya definidos)
+    // ---------------------------
+   // private void CloseCustomerModal() => showCustomerModal = false;
+    //private void CloseProductModal() => showProductModal = false;
+
+    // ---------------------------
+    // Recalcular paginaciones cuando cambian parámetros (por seguridad)
+    // ---------------------------
+    protected override void OnParametersSet()
+    {
+        ApplyCustomerPagination();
+        ApplyProductPagination();
+    }
+}

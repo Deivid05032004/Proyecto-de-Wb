@@ -64,3 +64,25 @@ C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Backend.DataContex
 C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Backend.DataContext.EFCore\obj\Debug\net8.0\Billing.Sales.Backend.DataContext.EFCore.pdb
 C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Backend.DataContext.EFCore\obj\Debug\net8.0\Billing.Sales.Backend.DataContext.EFCore.genruntimeconfig.cache
 C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Backend.DataContext.EFCore\obj\Debug\net8.0\ref\Billing.Sales.Backend.DataContext.EFCore.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.DataContext.EFCore\bin\Debug\net8.0\Billing.Sales.Backend.DataContext.EFCore.deps.json
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.DataContext.EFCore\bin\Debug\net8.0\Billing.Sales.Backend.DataContext.EFCore.runtimeconfig.json
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.DataContext.EFCore\bin\Debug\net8.0\Billing.Sales.Backend.DataContext.EFCore.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.DataContext.EFCore\bin\Debug\net8.0\Billing.Sales.Backend.DataContext.EFCore.pdb
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.DataContext.EFCore\bin\Debug\net8.0\Billing.Sales.Backend.BusinessObjects.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.DataContext.EFCore\bin\Debug\net8.0\Billing.Sales.Backend.Repositories.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.DataContext.EFCore\bin\Debug\net8.0\Billing.Sales.Entities.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.DataContext.EFCore\bin\Debug\net8.0\Billing.Sales.Backend.Repositories.pdb
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.DataContext.EFCore\bin\Debug\net8.0\Billing.Sales.Backend.BusinessObjects.pdb
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.DataContext.EFCore\bin\Debug\net8.0\Billing.Sales.Entities.pdb
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.DataContext.EFCore\obj\Debug\net8.0\Billing.Sales.Backend.DataContext.EFCore.csproj.AssemblyReference.cache
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.DataContext.EFCore\obj\Debug\net8.0\Billing.Sales.Backend.DataContext.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.DataContext.EFCore\obj\Debug\net8.0\Billing.Sales.Backend.DataContext.EFCore.AssemblyInfoInputs.cache
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.DataContext.EFCore\obj\Debug\net8.0\Billing.Sales.Backend.DataContext.EFCore.AssemblyInfo.cs
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.DataContext.EFCore\obj\Debug\net8.0\Billing.Sales.Backend.DataContext.EFCore.csproj.CoreCompileInputs.cache
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.DataContext.EFCore\obj\Debug\net8.0\Billing.Sales.Backend.DataContext.EFCore.sourcelink.json
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.DataContext.EFCore\obj\Debug\net8.0\Billing..A73FCD30.Up2Date
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.DataContext.EFCore\obj\Debug\net8.0\Billing.Sales.Backend.DataContext.EFCore.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.DataContext.EFCore\obj\Debug\net8.0\refint\Billing.Sales.Backend.DataContext.EFCore.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.DataContext.EFCore\obj\Debug\net8.0\Billing.Sales.Backend.DataContext.EFCore.pdb
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.DataContext.EFCore\obj\Debug\net8.0\Billing.Sales.Backend.DataContext.EFCore.genruntimeconfig.cache
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.DataContext.EFCore\obj\Debug\net8.0\ref\Billing.Sales.Backend.DataContext.EFCore.dll

@@ -1,0 +1,21 @@
+﻿/* Sidebar base */
+.sidebar {
+    width: 250px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+    /* Ocultar sidebar en moviles */
+    .sidebar.collapsed {
+        margin-left: -250px;
+    }
+
+    /* Hover links */
+    .sidebar .nav-link:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+/* Para que no se vea movido el contenido */
+.content {
+    width: 100%;
+}

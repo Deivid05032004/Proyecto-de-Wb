@@ -1,0 +1,62 @@
+﻿@inherits LayoutComponentBase
+
+<div class="d-flex">
+    <!-- SIDEBAR -->
+    <div class="sidebar bg-dark text-white p-3">
+        <h4 class="text-center mb-4">Billing Sales</h4>
+
+        <NavLink class="nav-link-custom" href="/">
+            <i class="bi bi-house-door me-2"></i> Home
+        </NavLink>
+
+        <NavLink class="nav-link-custom" href="/orders">
+            <i class="bi bi-basket2 me-2"></i> Ventas
+        </NavLink>
+
+        <NavLink class="nav-link-custom" href="/customers">
+            <i class="bi bi-people-fill me-2"></i> Clientes
+        </NavLink>
+
+        <NavLink class="nav-link-custom" href="/products">
+            <i class="bi bi-box-seam me-2"></i> Productos
+        </NavLink>
+
+    </div>
+
+    <!-- CONTENT AREA -->
+    <div class="content flex-grow-1">
+        <div class="top-bar text-white px-4 py-3">
+            <h5 class="m-0">Sistema de Facturación - Ventas</h5>
+        </div>
+
+        <div class="p-4">
+            @Body
+        </div>
+    </div>
+</div>
+
+<style>
+    .sidebar {
+        width: 230px;
+        min-height: 100vh;
+        background: #1E1F23;
+    }
+
+    .top-bar {
+        background: #0D6EFD;
+    }
+
+    .nav-link-custom {
+        display: block;
+        padding: 10px 12px;
+        color: #D7D7D7;
+        text-decoration: none;
+        border-radius: 6px;
+        margin-bottom: 6px;
+    }
+
+        .nav-link-custom:hover {
+            background: #0D6EFD;
+            color: white;
+        }
+</style>

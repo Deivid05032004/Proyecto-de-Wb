@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Z2j3G+s4KLc=",
+  "dgSpecHash": "AW30jPxycK8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Backend.Presenters\\Billing.Sales.Backend.Presenters.csproj",
+  "projectFilePath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Backend.Presenters\\Billing.Sales.Backend.Presenters.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Damian\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.9\\microsoft.extensions.dependencyinjection.abstractions.9.0.9.nupkg.sha512"
+    "C:\\Users\\MY PC\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.9\\microsoft.extensions.dependencyinjection.abstractions.9.0.9.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,0 +1,373 @@
+﻿@page "/customers"
+@using Billing.Sales.FrontEndCode.Services
+@inject CustomerService customerService
+@inject IJSRuntime JS
+
+<h3 class="mb-4">Gestión de Clientes</h3>
+
+<div class="row">
+
+    <!-- ==========================================================
+         FORMULARIO PARA CREAR / EDITAR CLIENTE
+         ========================================================== -->
+    <div class="col-md-4">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">
+                    @(isEditing ? "Editar Cliente" : "Nuevo Cliente")
+                </h5>
+
+                <!--
+                    VALIDATION BEHAVIOR QUE ME PEDISTE:
+                    ≫ Los errores NO se muestran hasta que el usuario intenta "Guardar".
+                -->
+                <EditForm Model="model"
+                          OnValidSubmit="Save"
+                          OnInvalidSubmit="ShowErrors">
+
+                    <DataAnnotationsValidator />
+
+                    @if (showValidationMessages)
+                    {
+                        <ValidationSummary />
+                    }
+
+                    <!-- Cédula -->
+                    <div class="mb-2">
+                        <label>Cédula *</label>
+                        <InputText class="form-control"
+                                   @bind-Value="model.IdentificationNumber" />
+                    </div>
+
+                    <!-- Nombre -->
+                    <div class="mb-2">
+                        <label>Nombres *</label>
+                        <InputText class="form-control"
+                                   @bind-Value="model.FirstName" />
+                    </div>
+
+                    <!-- Apellido -->
+                    <div class="mb-2">
+                        <label>Apellidos *</label>
+                        <InputText class="form-control"
+                                   @bind-Value="model.LastName" />
+                    </div>
+
+                    <!-- Dirección -->
+                    <div class="mb-2">
+                        <label>Dirección</label>
+                        <InputText class="form-control"
+                                   @bind-Value="model.Address" />
+                    </div>
+
+                    <!-- Email -->
+                    <div class="mb-2">
+                        <label>Email *</label>
+                        <InputText class="form-control"
+                                   @bind-Value="model.EmailAddress"
+                                   type="email" />
+                    </div>
+
+                    <!-- Teléfono -->
+                    <div class="mb-2">
+                        <label>Teléfono *</label>
+                        <InputText class="form-control"
+                                   @bind-Value="model.PhoneNumber" />
+                    </div>
+
+                    <!-- Ciudad -->
+                    <div class="mb-3">
+                        <label>Ciudad</label>
+                        <InputText class="form-control"
+                                   @bind-Value="model.City" />
+                    </div>
+
+                    <!-- BOTÓN GUARDAR -->
+                    <button class="btn btn-success w-100">
+                        @(isEditing ? "Actualizar" : "Guardar")
+                    </button>
+
+                    <!-- BOTÓN CANCELAR EDICIÓN -->
+                    @if (isEditing)
+                    {
+                        <button class="btn btn-secondary w-100 mt-2"
+                                @onclick="CancelEdit">
+                            Cancelar
+                        </button>
+                    }
+                </EditForm>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================================
+         TABLA + BUSQUEDA + PAGINACION
+         ========================================================== -->
+    <div class="col-md-8">
+
+        <!-- Búsqueda -->
+        <div class="input-group mb-2">
+            <span class="input-group-text">Buscar</span>
+            <input class="form-control"
+                   placeholder="Cédula, nombre, teléfono, email"
+                   value="@searchText"
+                   @oninput="OnSearchChanged" />
+
+            <button class="btn btn-outline-secondary"
+                    @onclick="ClearSearch">
+                ✕
+            </button>
+        </div>
+
+        <!-- TABLA CON TODOS LOS CAMPOS DEL MODELO -->
+        <div style="max-height: 500px; overflow-y: auto;">
+            <table class="table table-striped shadow-sm">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Cédula</th>
+                        <th>Nombres</th>
+                        <th>Apellidos</th>
+                        <th>Dirección</th>
+                        <th>Email</th>
+                        <th>Teléfono</th>
+                        <th>Ciudad</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @if (pagedCustomers.Count == 0)
+                    {
+                        <tr>
+                            <td colspan="9" class="text-center text-muted">
+                                No hay registros
+                            </td>
+                        </tr>
+                    }
+                    else
+                    {
+                        @foreach (var c in pagedCustomers)
+                        {
+                            <tr>
+                                <td>@c.Id</td>
+                                <td>@c.IdentificationNumber</td>
+                                <td>@c.FirstName</td>
+                                <td>@c.LastName</td>
+                                <td>@c.Address</td>
+                                <td>@c.EmailAddress</td>
+                                <td>@c.PhoneNumber</td>
+                                <td>@c.City</td>
+
+                                <td>
+                                    <!-- EDITAR -->
+                                    <button class="btn btn-warning btn-sm me-1"
+                                            @onclick="() => EditCustomer(c)">
+                                        Editar
+                                    </button>
+
+                                    <!-- ELIMINAR -->
+                                    <button class="btn btn-danger btn-sm"
+                                            @onclick="() => ConfirmDelete(c.Id)">
+                                        Eliminar
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <!-- PAGINACIÓN -->
+        <div class="d-flex justify-content-between mt-2">
+            <button class="btn btn-secondary"
+                    disabled="@(!CanPrev)"
+                    @onclick="PrevPage">
+                Anterior
+            </button>
+
+            <span>Página @currentPage de @totalPages</span>
+
+            <button class="btn btn-secondary"
+                    disabled="@(!CanNext)"
+                    @onclick="NextPage">
+                Siguiente
+            </button>
+        </div>
+    </div>
+</div>
+
+@code {
+
+    // ---------------------------------------------------
+    // MODELOS Y VARIABLES
+    // ---------------------------------------------------
+    CustomerModel model = new();
+    List<CustomerModel> customers = new();
+    List<CustomerModel> filteredCustomers = new();
+    List<CustomerModel> pagedCustomers = new();
+
+    bool isEditing = false;
+
+    // CONTROL DE VALIDACIÓN DIFERIDA (lo que pediste)
+    bool showValidationMessages = false;
+
+    // ---------------------------------------------------
+    // PAGINACIÓN
+    // ---------------------------------------------------
+    int currentPage = 1;
+    int pageSize = 10;
+    int totalPages => Math.Max(1, (int)Math.Ceiling(filteredCustomers.Count / (double)pageSize));
+
+    bool CanPrev => currentPage > 1;
+    bool CanNext => currentPage < totalPages;
+
+    // ---------------------------------------------------
+    // BÚSQUEDA
+    // ---------------------------------------------------
+    string searchText = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadCustomers();
+    }
+
+    private async Task LoadCustomers()
+    {
+        customers = await customerService.GetAllAsync() ?? new();
+        ApplySearch();
+    }
+
+    // ========================
+    // BÚSQUEDA EXACTA
+    // ========================
+    private async Task OnSearchChanged(ChangeEventArgs e)
+    {
+        searchText = e.Value?.ToString() ?? "";
+        ApplySearch();
+        await InvokeAsync(StateHasChanged);
+    }
+
+    private void ClearSearch()
+    {
+        searchText = "";
+        ApplySearch();
+    }
+
+    private void ApplySearch()
+    {
+        if (string.IsNullOrWhiteSpace(searchText))
+        {
+            filteredCustomers = customers.ToList();
+        }
+        else
+        {
+            var t = searchText.Trim().ToLower();
+
+            filteredCustomers = customers
+                .Where(c =>
+                    c.Id.ToString() == t ||
+                    c.IdentificationNumber?.ToLower().Contains(t) == true ||
+                    c.FirstName?.ToLower().Contains(t) == true ||
+                    c.LastName?.ToLower().Contains(t) == true ||
+                    c.EmailAddress?.ToLower().Contains(t) == true ||
+                    c.PhoneNumber?.ToLower().Contains(t) == true
+                )
+                .ToList();
+        }
+
+        currentPage = 1;
+        ApplyPagination();
+    }
+
+    // ========================
+    // PAGINACIÓN
+    // ========================
+    private void ApplyPagination()
+    {
+        pagedCustomers = filteredCustomers
+            .Skip((currentPage - 1) * pageSize)
+            .Take(pageSize)
+            .ToList();
+    }
+
+    private void NextPage()
+    {
+        if (CanNext)
+        {
+            currentPage++;
+            ApplyPagination();
+        }
+    }
+
+    private void PrevPage()
+    {
+        if (CanPrev)
+        {
+            currentPage--;
+            ApplyPagination();
+        }
+    }
+
+    // ========================
+    // EDITAR CLIENTE
+    // ========================
+    private void EditCustomer(CustomerModel c)
+    {
+        isEditing = true;
+        model = new CustomerModel
+        {
+            Id = c.Id,
+            IdentificationNumber = c.IdentificationNumber,
+            FirstName = c.FirstName,
+            LastName = c.LastName,
+            Address = c.Address,
+            EmailAddress = c.EmailAddress,
+            PhoneNumber = c.PhoneNumber,
+            City = c.City
+        };
+    }
+
+    private void CancelEdit()
+    {
+        isEditing = false;
+        model = new();
+        showValidationMessages = false;
+    }
+
+    // ========================
+    // GUARDAR (crear o actualizar)
+    // ========================
+    private async Task Save()
+    {
+        // ocultamos los errores después de guardar correctamente
+        showValidationMessages = false;
+
+        if (isEditing)
+            await customerService.UpdateAsync(model);
+        else
+            await customerService.CreateAsync(model);
+
+        await LoadCustomers();
+        CancelEdit();
+    }
+
+    // Mostrar errores SOLO si el usuario intenta guardar
+    private void ShowErrors()
+    {
+        showValidationMessages = true;
+    }
+
+    // ========================
+    // ELIMINAR
+    // ========================
+    private async Task ConfirmDelete(int id)
+    {
+        var confirmed = await JS.InvokeAsync<bool>("confirm", "¿Eliminar este cliente?");
+        if (!confirmed) return;
+
+        await customerService.DeleteAsync(id);
+        await LoadCustomers();
+    }
+}

@@ -1,0 +1,350 @@
+﻿@page "/products"
+@using Billing.Sales.FrontEndCode.Services
+@using Billing.Sales.FrontEndCode.Models
+@inject ProductService productService
+@inject IJSRuntime js
+
+<h3 class="mb-4">Gestión de Productos</h3>
+
+<!-- =====================================================
+     BUSCADOR / FILTRO (como en Customers)
+===================================================== -->
+<input class="form-control mb-3"
+       placeholder="Buscar por nombre o marca..."
+       value="@searchText"
+       @oninput="OnSearchChanged" />
+
+<div class="row">
+
+    <!-- =====================================================
+         FORMULARIO DE CREAR / EDITAR PRODUCTOS
+         (con validaciones básicas)
+    ====================================================== -->
+    <div class="col-md-4">
+        <div class="card shadow-sm">
+            <div class="card-body">
+
+                <h5 class="card-title">
+                    @(isEditing ? "Editar Producto" : "Nuevo Producto")
+                </h5>
+
+                <EditForm Model="model" OnValidSubmit="Save">
+                    <DataAnnotationsValidator />
+                    <ValidationSummary />
+
+                    <!-- Nombre -->
+                    <div class="mb-2">
+                        <label>Nombre</label>
+                        <InputText class="form-control" @bind-Value="model.Name" />
+                    </div>
+
+                    <!-- Marca -->
+                    <div class="mb-2">
+                        <label>Marca</label>
+                        <InputText class="form-control" @bind-Value="model.Brand" />
+                    </div>
+
+                    <!-- Presentación -->
+                    <div class="mb-2">
+                        <label>Presentación</label>
+                        <InputText class="form-control" @bind-Value="model.Presentation" />
+                    </div>
+
+                    <!-- Precio -->
+                    <div class="mb-2">
+                        <label>Precio</label>
+                        <InputNumber class="form-control"
+                                     @bind-Value="model.Price"
+                                     step="0.01" min="0" />
+                    </div>
+
+                    <!-- Stock -->
+                    <div class="mb-3">
+                        <label>Stock</label>
+                        <InputNumber class="form-control"
+                                     @bind-Value="model.Stock"
+                                     step="1" min="0" />
+                    </div>
+
+                    <!-- Botón principal -->
+                    <button class="btn btn-success w-100">
+                        @(isEditing ? "Actualizar" : "Guardar")
+                    </button>
+                </EditForm>
+            </div>
+        </div>
+    </div>
+
+    <!-- =====================================================
+         TABLA DE PRODUCTOS CON PAGINACIÓN
+         Igual estilo al CRUD de Customers
+    ====================================================== -->
+    <div class="col-md-8">
+        <table class="table table-striped shadow-sm">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Marca</th>
+                    <th>Presentación</th>
+                    <th>Precio</th>
+                    <th>Stock</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var p in paginatedProducts)
+                {
+                    <tr>
+                        <td>@p.Id</td>
+                        <td>@p.Name</td>
+                        <td>@p.Brand</td>
+                        <td>@p.Presentation</td>
+                        <td>$ @p.Price</td>
+                        <td>@p.Stock</td>
+
+                        <td>
+                            <button class="btn btn-warning btn-sm"
+                                    @onclick="() => Edit(p)">
+                                Editar
+                            </button>
+
+                            <button class="btn btn-danger btn-sm"
+                                    @onclick="() => ConfirmDelete(p.Id)">
+                                Borrar
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <!-- ============================
+             PAGINACIÓN (igual a Customers)
+        ============================ -->
+        <nav>
+            <ul class="pagination">
+                <li class="page-item @(currentPage == 1 ? "disabled" : "")">
+                    <button class="page-link" @onclick="PrevPage">Anterior</button>
+                </li>
+
+                @for (int i = 1; i <= totalPages; i++)
+                {
+                    <li class="page-item @(currentPage == i ? "active" : "")">
+                        <button class="page-link" @onclick="(() => GoToPage(i))">@i</button>
+                    </li>
+                }
+
+                <li class="page-item @(currentPage == totalPages ? "disabled" : "")">
+                    <button class="page-link" @onclick="NextPage">Siguiente</button>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+</div>
+
+@code {
+    /* ==========================================================
+       MODELO PRINCIPAL
+    ========================================================== */
+    ProductModel model = new();
+
+    /* ==========================================================
+       LISTA COMPLETA + FILTRADA + PAGINADA
+    ========================================================== */
+    List<ProductModel> products = new();
+    List<ProductModel> filteredProducts = new();
+    List<ProductModel> paginatedProducts = new();
+
+    /* ==========================================================
+       FLAGS
+    ========================================================== */
+    bool isEditing = false;
+    string searchText = "";
+
+    /* ==========================================================
+       PAGINACIÓN
+    ========================================================== */
+    int currentPage = 1;
+    int pageSize = 5;      // Igual que Customers
+    int totalPages = 1;
+
+    /* ==========================================================
+       INIT
+    ========================================================== */
+    protected override async Task OnInitializedAsync()
+    {
+        await Load();
+    }
+
+    async Task Load()
+    {
+        products = await productService.GetAllAsync();
+        ApplyFilters();
+    }
+    private async Task OnSearchChanged(ChangeEventArgs e)
+    {
+        searchText = e.Value?.ToString() ?? "";
+        ApplyFilters();
+        await InvokeAsync(StateHasChanged);
+    }
+
+    /* ==========================================================
+       FILTRO DE BÚSQUEDA
+    ========================================================== */
+    void ApplyFilters()
+    {
+        if (string.IsNullOrWhiteSpace(searchText))
+        {
+            filteredProducts = products.ToList();
+        }
+        else
+        {
+            var t = searchText.Trim().ToLower();
+
+            filteredProducts = products
+                .Where(p =>
+                    p.Name?.ToLower().Contains(t) == true ||
+                    p.Brand?.ToLower().Contains(t) == true
+                )
+                .ToList();
+        }
+
+        currentPage = 1;
+        ApplyPagination();
+    }
+
+    /* ==========================================================
+       PAGINACIÓN (igual a Customers)
+    ========================================================== */
+    void ApplyPagination()
+    {
+        totalPages = Math.Max(1,
+            (int)Math.Ceiling(filteredProducts.Count / (double)pageSize));
+
+        paginatedProducts = filteredProducts
+            .Skip((currentPage - 1) * pageSize)
+            .Take(pageSize)
+            .ToList();
+    }
+
+    void NextPage()
+    {
+        if (currentPage < totalPages)
+        {
+            currentPage++;
+            ApplyPagination();
+        }
+    }
+
+    void PrevPage()
+    {
+        if (currentPage > 1)
+        {
+            currentPage--;
+            ApplyPagination();
+        }
+    }
+
+    void GoToPage(int page)
+    {
+        currentPage = page;
+        ApplyPagination();
+    }
+
+    /* ==========================================================
+       GUARDAR / ACTUALIZAR CON TOASTR
+    ========================================================== */
+    async Task Save()
+    {
+        if (model.Price < 0 || model.Stock < 0)
+        {
+            await js.InvokeVoidAsync("SwalMessages.warning",
+                "Precio y Stock no pueden ser negativos.");
+            return;
+        }
+
+        bool result = isEditing
+            ? await productService.UpdateAsync(model)
+            : await productService.CreateAsync(model);
+
+        if (result)
+        {
+            await js.InvokeVoidAsync("SwalMessages.success",
+                "Producto guardado correctamente.");
+
+            model = new ProductModel();
+            isEditing = false;
+
+            await Load();
+        }
+        else
+        {
+            await js.InvokeVoidAsync("SwalMessages.error",
+                "Error al guardar el producto.");
+        }
+    }
+
+    /* ==========================================================
+       EDITAR
+    ========================================================== */
+    void Edit(ProductModel p)
+    {
+        model = new ProductModel
+        {
+            Id = p.Id,
+            Name = p.Name,
+            Brand = p.Brand,
+            Presentation = p.Presentation,
+            Price = p.Price,
+            Stock = p.Stock
+        };
+
+        isEditing = true;
+    }
+
+    /* ==========================================================
+       CONFIRMAR ELIMINACIÓN (Toastr)
+    ========================================================== */
+    async Task ConfirmDelete(int id)
+    {
+        bool confirmed = await js.InvokeAsync<bool>(
+            "SwalMessages.confirm",
+            "¿Está seguro de eliminar este producto?"
+        );
+
+        if (confirmed)
+            await Delete(id);
+    }
+
+    /* ==========================================================
+       ELIMINAR PRODUCTO
+    ========================================================== */
+    async Task Delete(int id)
+    {
+        bool result = await productService.DeleteAsync(id);
+
+        if (result)
+        {
+            await js.InvokeVoidAsync("SwalMessages.success",
+                "Producto eliminado.");
+
+            await Load();
+        }
+        else
+        {
+            await js.InvokeVoidAsync("SwalMessages.error",
+                "Error al eliminar el producto.");
+        }
+    }
+
+    /* ==========================================================
+       REACTIVAR FILTRO AL MODIFICAR INPUT
+    ========================================================== */
+    protected override void OnParametersSet()
+    {
+        ApplyFilters();
+    }
+}

@@ -1,0 +1,40 @@
+﻿@page "/customers/create"
+@using Billing.Sales.FrontEnd.Models
+@using Billing.Sales.FrontEnd.Services
+@using Microsoft.AspNetCore.Components.Forms
+@inject CustomerService customerService
+@inject NavigationManager nav
+
+<h3>Crear Cliente</h3>
+
+<EditForm Model="model" OnValidSubmit="Save">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-2">
+        <label>Cédula</label>
+        <InputText class="form-control" @bind-Value="model.IdentificationNumber" />
+    </div>
+
+    <div class="mb-2">
+        <label>Nombre</label>
+        <InputText class="form-control" @bind-Value="model.FirstName" />
+    </div>
+
+    <div class="mb-2">
+        <label>Apellido</label>
+        <InputText class="form-control" @bind-Value="model.LastName" />
+    </div>
+
+    <button class="btn btn-success">Guardar</button>
+</EditForm>
+
+@code {
+    CustomerModel model = new();
+
+    async Task Save()
+    {
+        await customerService.CreateAsync(model);
+        nav.NavigateTo("/customers");
+    }
+}

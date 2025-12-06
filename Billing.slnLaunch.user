@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "Billing.RazorComponent.WebApi\\Billing.Sales.backend.WebApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Billing.Sales.FronEndCode\\Billing.Sales.FrontEndCode.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

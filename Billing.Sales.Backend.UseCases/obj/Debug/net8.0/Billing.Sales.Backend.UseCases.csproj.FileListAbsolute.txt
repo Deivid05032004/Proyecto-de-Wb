@@ -52,3 +52,21 @@ C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Backend.UseCases\b
 C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Backend.UseCases\bin\Debug\net8.0\Billing.Sales.Entities.pdb
 C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Backend.UseCases\obj\Debug\net8.0\Billing..9437AE0F.Up2Date
 C:\Users\Damian\Desktop\PW\Clon1\Proyecto-de-Wb\Billing.Sales.Backend.UseCases\obj\Debug\net8.0\ref\Billing.Sales.Backend.UseCases.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.UseCases\bin\Debug\net8.0\Billing.Sales.Backend.UseCases.deps.json
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.UseCases\bin\Debug\net8.0\Billing.Sales.Backend.UseCases.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.UseCases\bin\Debug\net8.0\Billing.Sales.Backend.UseCases.pdb
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.UseCases\bin\Debug\net8.0\Billing.Sales.Backend.BusinessObjects.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.UseCases\bin\Debug\net8.0\Billing.Sales.Entities.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.UseCases\bin\Debug\net8.0\Billing.Sales.Backend.BusinessObjects.pdb
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.UseCases\bin\Debug\net8.0\Billing.Sales.Entities.pdb
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.UseCases\obj\Debug\net8.0\Billing.Sales.Backend.UseCases.csproj.AssemblyReference.cache
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.UseCases\obj\Debug\net8.0\Billing.Sales.Backend.UseCases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.UseCases\obj\Debug\net8.0\Billing.Sales.Backend.UseCases.AssemblyInfoInputs.cache
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.UseCases\obj\Debug\net8.0\Billing.Sales.Backend.UseCases.AssemblyInfo.cs
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.UseCases\obj\Debug\net8.0\Billing.Sales.Backend.UseCases.csproj.CoreCompileInputs.cache
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.UseCases\obj\Debug\net8.0\Billing.Sales.Backend.UseCases.sourcelink.json
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.UseCases\obj\Debug\net8.0\Billing..9437AE0F.Up2Date
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.UseCases\obj\Debug\net8.0\Billing.Sales.Backend.UseCases.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.UseCases\obj\Debug\net8.0\refint\Billing.Sales.Backend.UseCases.dll
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.UseCases\obj\Debug\net8.0\Billing.Sales.Backend.UseCases.pdb
+C:\Users\MY PC\source\repos\Nuevo Billing\Clon 3\Proyecto-de-Wb\Billing.Sales.Backend.UseCases\obj\Debug\net8.0\ref\Billing.Sales.Backend.UseCases.dll

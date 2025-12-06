@@ -1,0 +1,62 @@
+﻿@page "/customers"
+@using Billing.Sales.FrontEnd.Models
+@using Billing.Sales.FrontEnd.Services
+@inject CustomerService customerService
+@inject NavigationManager nav
+
+<h3>Clientes</h3>
+
+<button class="btn btn-primary mb-3" @onclick="Create">Nuevo Cliente</button>
+
+@if (customers == null)
+{
+    <p>Cargando...</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Cédula</th>
+                <th>Nombre</th>
+                <th>Email</th>
+                <th>Ciudad</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var c in customers)
+            {
+                <tr>
+                    <td>@c.IdentificationNumber</td>
+                    <td>@c.FirstName @c.LastName</td>
+                    <td>@c.EmailAddress</td>
+                    <td>@c.City</td>
+                    <td>
+                        <button class="btn btn-sm btn-warning" @onclick="() => Edit(c.Id)">Editar</button>
+                        <button class="btn btn-sm btn-danger" @onclick="() => Delete(c.Id)">Eliminar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    List<CustomerModel> customers;
+
+    protected override async Task OnInitializedAsync()
+    {
+        customers = await customerService.GetAllAsync();
+    }
+
+    void Create() => nav.NavigateTo("/customers/create");
+    void Edit(int id) => nav.NavigateTo($"/customers/update/{id}");
+
+    async Task Delete(int id)
+    {
+        await customerService.DeleteAsync(id);
+        customers = await customerService.GetAllAsync();
+    }
+}

@@ -25,11 +25,7 @@ namespace Billing.Sales.Backend.DataContext.EFCore
             services.AddScoped<ICommandsOrderDetailsRepository, OrderDetailCommandsRepository>();
 
             services.Configure(configureDBOptions);
-            //services.AddScoped<ICommandsOrderRepository, OrderCommandsRepository>();
-            //services.AddScoped<ICommandsCustomerRepository, CustomerCommandsRepository>();
-            //services.AddScoped<ICommandsProductRepository, ProductCommandsRepository>();
-            //services.AddScoped<ICommandsOrderDetailsRepository, OrderDetailCommandsRepository>();
-            //services.AddScoped<IUserRepository, UserRepository>();
+         
 
             return services;
         }

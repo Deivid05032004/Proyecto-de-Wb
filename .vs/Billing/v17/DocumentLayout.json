@@ -1,66 +1,86 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\",
+  "WorkspaceRootPath": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E4BEB33-5FE6-4AA1-9FA4-BF1AFB85517A}|Billing.Sales.Backend.UseCases\\Billing.Sales.Backend.UseCases.csproj|c:\\users\\damian\\desktop\\pw\\clon1\\proyecto-de-wb\\billing.sales.backend.usecases\\authinteractor\\authinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4BEB33-5FE6-4AA1-9FA4-BF1AFB85517A}|Billing.Sales.Backend.UseCases\\Billing.Sales.Backend.UseCases.csproj|solutionrelative:billing.sales.backend.usecases\\authinteractor\\authinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9D853C7-993E-45E4-A2E8-3C2E5B833E70}|Billing.Sales.Backend.IoC\\Billing.Sales.Backend.IoC.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 3\\proyecto-de-wb\\billing.sales.backend.ioc\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9D853C7-993E-45E4-A2E8-3C2E5B833E70}|Billing.Sales.Backend.IoC\\Billing.Sales.Backend.IoC.csproj|solutionrelative:billing.sales.backend.ioc\\dependencycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3DD907B-C63B-40B1-86B9-0D327BCC9939}|Billing.Sales.Fronend.Business.Objects\\Billing.Sales.Fronend.Business.Objects.csproj|c:\\users\\damian\\desktop\\pw\\clon1\\proyecto-de-wb\\billing.sales.fronend.business.objects\\interfaces\\iusergateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3DD907B-C63B-40B1-86B9-0D327BCC9939}|Billing.Sales.Fronend.Business.Objects\\Billing.Sales.Fronend.Business.Objects.csproj|solutionrelative:billing.sales.fronend.business.objects\\interfaces\\iusergateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C19BF677-0CFC-42F9-B748-A085B24C2789}|Billing.Sales.Backend.Contollers\\Billing.Sales.Backend.Contollers.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 3\\proyecto-de-wb\\billing.sales.backend.contollers\\createorder\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C19BF677-0CFC-42F9-B748-A085B24C2789}|Billing.Sales.Backend.Contollers\\Billing.Sales.Backend.Contollers.csproj|solutionrelative:billing.sales.backend.contollers\\createorder\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA1C9034-DB7B-4E89-94E8-E2CD0A739710}|Billing.Sales.Fronend.Gateways\\Billing.Sales.Fronend.Gateways.csproj|c:\\users\\damian\\desktop\\pw\\clon1\\proyecto-de-wb\\billing.sales.fronend.gateways\\usergateway\\createusergateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA1C9034-DB7B-4E89-94E8-E2CD0A739710}|Billing.Sales.Fronend.Gateways\\Billing.Sales.Fronend.Gateways.csproj|solutionrelative:billing.sales.fronend.gateways\\usergateway\\createusergateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E4BEB33-5FE6-4AA1-9FA4-BF1AFB85517A}|Billing.Sales.Backend.UseCases\\Billing.Sales.Backend.UseCases.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 3\\proyecto-de-wb\\billing.sales.backend.usecases\\orderinteractor\\createorderinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4BEB33-5FE6-4AA1-9FA4-BF1AFB85517A}|Billing.Sales.Backend.UseCases\\Billing.Sales.Backend.UseCases.csproj|solutionrelative:billing.sales.backend.usecases\\orderinteractor\\createorderinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C19BF677-0CFC-42F9-B748-A085B24C2789}|Billing.Sales.Backend.Contollers\\Billing.Sales.Backend.Contollers.csproj|c:\\users\\damian\\desktop\\pw\\clon1\\proyecto-de-wb\\billing.sales.backend.contollers\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C19BF677-0CFC-42F9-B748-A085B24C2789}|Billing.Sales.Backend.Contollers\\Billing.Sales.Backend.Contollers.csproj|solutionrelative:billing.sales.backend.contollers\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|c:\\users\\damian\\desktop\\pw\\clon1\\proyecto-de-wb\\billing.sales.backend.businessobjects\\aggregates\\useraggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|solutionrelative:billing.sales.backend.businessobjects\\aggregates\\useraggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3427538-E2B6-4CFA-82CA-C42524BB1EF9}|Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj|c:\\users\\damian\\desktop\\pw\\clon1\\proyecto-de-wb\\billing.sales.business.rules\\dtos\\createuser\\userroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3427538-E2B6-4CFA-82CA-C42524BB1EF9}|Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj|solutionrelative:billing.sales.business.rules\\dtos\\createuser\\userroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C19BF677-0CFC-42F9-B748-A085B24C2789}|Billing.Sales.Backend.Contollers\\Billing.Sales.Backend.Contollers.csproj|c:\\users\\damian\\desktop\\pw\\clon1\\proyecto-de-wb\\billing.sales.backend.contollers\\createuser\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C19BF677-0CFC-42F9-B748-A085B24C2789}|Billing.Sales.Backend.Contollers\\Billing.Sales.Backend.Contollers.csproj|solutionrelative:billing.sales.backend.contollers\\createuser\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3427538-E2B6-4CFA-82CA-C42524BB1EF9}|Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj|c:\\users\\damian\\desktop\\pw\\clon1\\proyecto-de-wb\\billing.sales.business.rules\\dtos\\createuser\\createroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3427538-E2B6-4CFA-82CA-C42524BB1EF9}|Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj|solutionrelative:billing.sales.business.rules\\dtos\\createuser\\createroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3427538-E2B6-4CFA-82CA-C42524BB1EF9}|Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj|c:\\users\\damian\\desktop\\pw\\clon1\\proyecto-de-wb\\billing.sales.business.rules\\dtos\\createuser\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3427538-E2B6-4CFA-82CA-C42524BB1EF9}|Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj|solutionrelative:billing.sales.business.rules\\dtos\\createuser\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3427538-E2B6-4CFA-82CA-C42524BB1EF9}|Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj|c:\\users\\damian\\desktop\\pw\\clon1\\proyecto-de-wb\\billing.sales.business.rules\\dtos\\createuser\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3427538-E2B6-4CFA-82CA-C42524BB1EF9}|Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj|solutionrelative:billing.sales.business.rules\\dtos\\createuser\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|c:\\users\\damian\\desktop\\pw\\clon1\\proyecto-de-wb\\billing.sales.backend.businessobjects\\pocoentities\\authentitie\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|solutionrelative:billing.sales.backend.businessobjects\\pocoentities\\authentitie\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|c:\\users\\damian\\desktop\\pw\\clon1\\proyecto-de-wb\\billing.sales.backend.businessobjects\\pocoentities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|solutionrelative:billing.sales.backend.businessobjects\\pocoentities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|c:\\users\\damian\\desktop\\pw\\clon1\\proyecto-de-wb\\billing.sales.backend.businessobjects\\aggregates\\productaggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|solutionrelative:billing.sales.backend.businessobjects\\aggregates\\productaggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|c:\\users\\damian\\desktop\\pw\\clon1\\proyecto-de-wb\\billing.sales.backend.businessobjects\\aggregates\\customeraggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|solutionrelative:billing.sales.backend.businessobjects\\aggregates\\customeraggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|c:\\users\\damian\\desktop\\pw\\clon1\\proyecto-de-wb\\billing.sales.backend.businessobjects\\aggregates\\orderaggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 3\\proyecto-de-wb\\billing.sales.backend.businessobjects\\aggregates\\orderaggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|solutionrelative:billing.sales.backend.businessobjects\\aggregates\\orderaggregate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3427538-E2B6-4CFA-82CA-C42524BB1EF9}|Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 3\\proyecto-de-wb\\billing.sales.business.rules\\dtos\\createbill\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3427538-E2B6-4CFA-82CA-C42524BB1EF9}|Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj|solutionrelative:billing.sales.business.rules\\dtos\\createbill\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5499B1-15D9-450A-B743-A23F60EA6D04}|Billing.Sales.FronEndCode\\Billing.Sales.FrontEndCode.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 3\\proyecto-de-wb\\billing.sales.fronendcode\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5499B1-15D9-450A-B743-A23F60EA6D04}|Billing.Sales.FronEndCode\\Billing.Sales.FrontEndCode.csproj|solutionrelative:billing.sales.fronendcode\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5499B1-15D9-450A-B743-A23F60EA6D04}|Billing.Sales.FronEndCode\\Billing.Sales.FrontEndCode.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 3\\proyecto-de-wb\\billing.sales.fronendcode\\pages\\orders\\order.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC5499B1-15D9-450A-B743-A23F60EA6D04}|Billing.Sales.FronEndCode\\Billing.Sales.FrontEndCode.csproj|solutionrelative:billing.sales.fronendcode\\pages\\orders\\order.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5499B1-15D9-450A-B743-A23F60EA6D04}|Billing.Sales.FronEndCode\\Billing.Sales.FrontEndCode.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 3\\proyecto-de-wb\\billing.sales.fronendcode\\pages\\products\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC5499B1-15D9-450A-B743-A23F60EA6D04}|Billing.Sales.FronEndCode\\Billing.Sales.FrontEndCode.csproj|solutionrelative:billing.sales.fronendcode\\pages\\products\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5499B1-15D9-450A-B743-A23F60EA6D04}|Billing.Sales.FronEndCode\\Billing.Sales.FrontEndCode.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 3\\proyecto-de-wb\\billing.sales.fronendcode\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5499B1-15D9-450A-B743-A23F60EA6D04}|Billing.Sales.FronEndCode\\Billing.Sales.FrontEndCode.csproj|solutionrelative:billing.sales.fronendcode\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5499B1-15D9-450A-B743-A23F60EA6D04}|Billing.Sales.FronEndCode\\Billing.Sales.FrontEndCode.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 3\\proyecto-de-wb\\billing.sales.fronendcode\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5499B1-15D9-450A-B743-A23F60EA6D04}|Billing.Sales.FronEndCode\\Billing.Sales.FrontEndCode.csproj|solutionrelative:billing.sales.fronendcode\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5499B1-15D9-450A-B743-A23F60EA6D04}|Billing.Sales.FronEndCode\\Billing.Sales.FrontEndCode.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 3\\proyecto-de-wb\\billing.sales.fronendcode\\models\\ordercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5499B1-15D9-450A-B743-A23F60EA6D04}|Billing.Sales.FronEndCode\\Billing.Sales.FrontEndCode.csproj|solutionrelative:billing.sales.fronendcode\\models\\ordercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5499B1-15D9-450A-B743-A23F60EA6D04}|Billing.Sales.FronEndCode\\Billing.Sales.FrontEndCode.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 3\\proyecto-de-wb\\billing.sales.fronendcode\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5499B1-15D9-450A-B743-A23F60EA6D04}|Billing.Sales.FronEndCode\\Billing.Sales.FrontEndCode.csproj|solutionrelative:billing.sales.fronendcode\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5499B1-15D9-450A-B743-A23F60EA6D04}|Billing.Sales.FronEndCode\\Billing.Sales.FrontEndCode.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 3\\proyecto-de-wb\\billing.sales.fronendcode\\models\\customermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5499B1-15D9-450A-B743-A23F60EA6D04}|Billing.Sales.FronEndCode\\Billing.Sales.FrontEndCode.csproj|solutionrelative:billing.sales.fronendcode\\models\\customermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DDDD54-1056-4141-B559-1379B9C19717}|Billing.Sales.Backend.DataContext.EFCore\\Billing.Sales.Backend.DataContext.EFCore.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 3\\proyecto-de-wb\\billing.sales.backend.datacontext.efcore\\configurations\\orderconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DDDD54-1056-4141-B559-1379B9C19717}|Billing.Sales.Backend.DataContext.EFCore\\Billing.Sales.Backend.DataContext.EFCore.csproj|solutionrelative:billing.sales.backend.datacontext.efcore\\configurations\\orderconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 3\\proyecto-de-wb\\billing.sales.backend.businessobjects\\pocoentities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|solutionrelative:billing.sales.backend.businessobjects\\pocoentities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5499B1-15D9-450A-B743-A23F60EA6D04}|Billing.Sales.FronEndCode\\Billing.Sales.FrontEndCode.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 3\\proyecto-de-wb\\billing.sales.fronendcode\\models\\orderdetailfrontmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5499B1-15D9-450A-B743-A23F60EA6D04}|Billing.Sales.FronEndCode\\Billing.Sales.FrontEndCode.csproj|solutionrelative:billing.sales.fronendcode\\models\\orderdetailfrontmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 3\\proyecto-de-wb\\billing.sales.backend.businessobjects\\valueobjects\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FFC9AD8-77D1-4085-8E8E-6DDF27D4FBA4}|Billing.Sales.Backend.BusinessObjects\\Billing.Sales.Backend.BusinessObjects.csproj|solutionrelative:billing.sales.backend.businessobjects\\valueobjects\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3427538-E2B6-4CFA-82CA-C42524BB1EF9}|Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 3\\proyecto-de-wb\\billing.sales.business.rules\\dtos\\createbill\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3427538-E2B6-4CFA-82CA-C42524BB1EF9}|Billing.Sales.Business.Rules\\Billing.Sales.Entities.csproj|solutionrelative:billing.sales.business.rules\\dtos\\createbill\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5499B1-15D9-450A-B743-A23F60EA6D04}|Billing.Sales.FronEndCode\\Billing.Sales.FrontEndCode.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 3\\proyecto-de-wb\\billing.sales.fronendcode\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC5499B1-15D9-450A-B743-A23F60EA6D04}|Billing.Sales.FronEndCode\\Billing.Sales.FrontEndCode.csproj|solutionrelative:billing.sales.fronendcode\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5499B1-15D9-450A-B743-A23F60EA6D04}|Billing.Sales.FronEndCode\\Billing.Sales.FrontEndCode.csproj|c:\\users\\my pc\\source\\repos\\nuevo billing\\clon 3\\proyecto-de-wb\\billing.sales.fronendcode\\wwwroot\\js\\bootstraphelpers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FC5499B1-15D9-450A-B743-A23F60EA6D04}|Billing.Sales.FronEndCode\\Billing.Sales.FrontEndCode.csproj|solutionrelative:billing.sales.fronendcode\\wwwroot\\js\\bootstraphelpers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -73,199 +93,271 @@
           "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CustomerAggregate.cs",
-              "DocumentMoniker": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Aggregates\\CustomerAggregate.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Backend.BusinessObjects\\Aggregates\\CustomerAggregate.cs",
-              "ToolTip": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Aggregates\\CustomerAggregate.cs",
-              "RelativeToolTip": "Billing.Sales.Backend.BusinessObjects\\Aggregates\\CustomerAggregate.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBEAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T16:12:20.101Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserAggregate.cs",
-              "DocumentMoniker": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Aggregates\\UserAggregate.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Backend.BusinessObjects\\Aggregates\\UserAggregate.cs",
-              "ToolTip": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Aggregates\\UserAggregate.cs",
-              "RelativeToolTip": "Billing.Sales.Backend.BusinessObjects\\Aggregates\\UserAggregate.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAwCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T16:12:14.947Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{51d8ca1e-4698-404c-a37b-a4a41603557b}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthInteractor.cs",
-              "DocumentMoniker": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Backend.UseCases\\AuthInteractor\\AuthInteractor.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Backend.UseCases\\AuthInteractor\\AuthInteractor.cs",
-              "ToolTip": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Backend.UseCases\\AuthInteractor\\AuthInteractor.cs",
-              "RelativeToolTip": "Billing.Sales.Backend.UseCases\\AuthInteractor\\AuthInteractor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "Title": "DependencyContainer.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Backend.IoC\\DependencyContainer.cs",
+              "RelativeDocumentMoniker": "Billing.Sales.Backend.IoC\\DependencyContainer.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Backend.IoC\\DependencyContainer.cs",
+              "RelativeToolTip": "Billing.Sales.Backend.IoC\\DependencyContainer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T16:42:40.854Z",
+              "WhenOpened": "2025-12-06T06:27:14.622Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IUserGateway.cs",
-              "DocumentMoniker": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Fronend.Business.Objects\\Interfaces\\IUserGateway.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Fronend.Business.Objects\\Interfaces\\IUserGateway.cs",
-              "ToolTip": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Fronend.Business.Objects\\Interfaces\\IUserGateway.cs",
-              "RelativeToolTip": "Billing.Sales.Fronend.Business.Objects\\Interfaces\\IUserGateway.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Backend.Contollers\\CreateOrder\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Billing.Sales.Backend.Contollers\\CreateOrder\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Backend.Contollers\\CreateOrder\\OrdersController.cs",
+              "RelativeToolTip": "Billing.Sales.Backend.Contollers\\CreateOrder\\OrdersController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T16:42:37.634Z"
+              "WhenOpened": "2025-12-06T06:26:34.629Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CreateUserGateway.cs",
-              "DocumentMoniker": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Fronend.Gateways\\UserGateway\\CreateUserGateway.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Fronend.Gateways\\UserGateway\\CreateUserGateway.cs",
-              "ToolTip": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Fronend.Gateways\\UserGateway\\CreateUserGateway.cs",
-              "RelativeToolTip": "Billing.Sales.Fronend.Gateways\\UserGateway\\CreateUserGateway.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAwCQAAAAQAAAAAAAAAA==",
+              "Title": "CreateOrderInteractor.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Backend.UseCases\\OrderInteractor\\CreateOrderInteractor.cs",
+              "RelativeDocumentMoniker": "Billing.Sales.Backend.UseCases\\OrderInteractor\\CreateOrderInteractor.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Backend.UseCases\\OrderInteractor\\CreateOrderInteractor.cs",
+              "RelativeToolTip": "Billing.Sales.Backend.UseCases\\OrderInteractor\\CreateOrderInteractor.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAuwEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T16:42:33.614Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GlobalUsings.cs",
-              "DocumentMoniker": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Backend.Contollers\\GlobalUsings.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Backend.Contollers\\GlobalUsings.cs",
-              "ToolTip": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Backend.Contollers\\GlobalUsings.cs",
-              "RelativeToolTip": "Billing.Sales.Backend.Contollers\\GlobalUsings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T16:42:26.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Backend.Contollers\\CreateUser\\UserController.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Backend.Contollers\\CreateUser\\UserController.cs",
-              "ToolTip": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Backend.Contollers\\CreateUser\\UserController.cs",
-              "RelativeToolTip": "Billing.Sales.Backend.Contollers\\CreateUser\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T16:40:13.023Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UpdateUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\POCOEntities\\AuthEntitie\\UpdateUserDto.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Backend.BusinessObjects\\POCOEntities\\AuthEntitie\\UpdateUserDto.cs",
-              "ToolTip": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\POCOEntities\\AuthEntitie\\UpdateUserDto.cs",
-              "RelativeToolTip": "Billing.Sales.Backend.BusinessObjects\\POCOEntities\\AuthEntitie\\UpdateUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T16:34:53.003Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\POCOEntities\\Customer.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Backend.BusinessObjects\\POCOEntities\\Customer.cs",
-              "ToolTip": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\POCOEntities\\Customer.cs",
-              "RelativeToolTip": "Billing.Sales.Backend.BusinessObjects\\POCOEntities\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T16:35:07.117Z"
+              "WhenOpened": "2025-12-06T06:26:13.432Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "CreateRoleDto.cs",
-              "DocumentMoniker": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Business.Rules\\Dtos\\CreateUser\\CreateRoleDto.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Business.Rules\\Dtos\\CreateUser\\CreateRoleDto.cs",
-              "ToolTip": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Business.Rules\\Dtos\\CreateUser\\CreateRoleDto.cs",
-              "RelativeToolTip": "Billing.Sales.Business.Rules\\Dtos\\CreateUser\\CreateRoleDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T16:29:19.416Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserRoleDto.cs",
-              "DocumentMoniker": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Business.Rules\\Dtos\\CreateUser\\UserRoleDto.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Business.Rules\\Dtos\\CreateUser\\UserRoleDto.cs",
-              "ToolTip": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Business.Rules\\Dtos\\CreateUser\\UserRoleDto.cs",
-              "RelativeToolTip": "Billing.Sales.Business.Rules\\Dtos\\CreateUser\\UserRoleDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T16:29:44.598Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UpdateUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Business.Rules\\Dtos\\CreateUser\\UpdateUserDto.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Business.Rules\\Dtos\\CreateUser\\UpdateUserDto.cs",
-              "ToolTip": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Business.Rules\\Dtos\\CreateUser\\UpdateUserDto.cs",
-              "RelativeToolTip": "Billing.Sales.Business.Rules\\Dtos\\CreateUser\\UpdateUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T16:36:16.178Z"
+              "Title": "Products.razor",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.FronEndCode\\Pages\\Products\\Products.razor",
+              "RelativeDocumentMoniker": "Billing.Sales.FronEndCode\\Pages\\Products\\Products.razor",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.FronEndCode\\Pages\\Products\\Products.razor",
+              "RelativeToolTip": "Billing.Sales.FronEndCode\\Pages\\Products\\Products.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T06:20:23.087Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "CreateUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Business.Rules\\Dtos\\CreateUser\\CreateUserDto.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Business.Rules\\Dtos\\CreateUser\\CreateUserDto.cs",
-              "ToolTip": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Business.Rules\\Dtos\\CreateUser\\CreateUserDto.cs",
-              "RelativeToolTip": "Billing.Sales.Business.Rules\\Dtos\\CreateUser\\CreateUserDto.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.FronEndCode\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "Billing.Sales.FronEndCode\\Services\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.FronEndCode\\Services\\CustomerService.cs",
+              "RelativeToolTip": "Billing.Sales.FronEndCode\\Services\\CustomerService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T16:29:00.728Z"
+              "WhenOpened": "2025-12-06T06:20:57.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderAggregate.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Aggregates\\OrderAggregate.cs",
+              "RelativeDocumentMoniker": "Billing.Sales.Backend.BusinessObjects\\Aggregates\\OrderAggregate.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Aggregates\\OrderAggregate.cs",
+              "RelativeToolTip": "Billing.Sales.Backend.BusinessObjects\\Aggregates\\OrderAggregate.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAxwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T06:15:09.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.FronEndCode\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Billing.Sales.FronEndCode\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.FronEndCode\\Services\\ProductService.cs",
+              "RelativeToolTip": "Billing.Sales.FronEndCode\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T06:09:38.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.FronEndCode\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Billing.Sales.FronEndCode\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.FronEndCode\\Services\\OrderService.cs",
+              "RelativeToolTip": "Billing.Sales.FronEndCode\\Services\\OrderService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T05:56:26.689Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "ProductAggregate.cs",
-              "DocumentMoniker": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Aggregates\\ProductAggregate.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Backend.BusinessObjects\\Aggregates\\ProductAggregate.cs",
-              "ToolTip": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Aggregates\\ProductAggregate.cs",
-              "RelativeToolTip": "Billing.Sales.Backend.BusinessObjects\\Aggregates\\ProductAggregate.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAYwCUAAAAwAAAAAAAAAA==",
+              "Title": "CustomerModel.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.FronEndCode\\Models\\CustomerModel.cs",
+              "RelativeDocumentMoniker": "Billing.Sales.FronEndCode\\Models\\CustomerModel.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.FronEndCode\\Models\\CustomerModel.cs",
+              "RelativeToolTip": "Billing.Sales.FronEndCode\\Models\\CustomerModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T16:33:32.14Z"
+              "WhenOpened": "2025-12-06T05:56:01.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Backend.DataContext.EFCore\\Configurations\\OrderConfigurations.cs",
+              "RelativeDocumentMoniker": "Billing.Sales.Backend.DataContext.EFCore\\Configurations\\OrderConfigurations.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Backend.DataContext.EFCore\\Configurations\\OrderConfigurations.cs",
+              "RelativeToolTip": "Billing.Sales.Backend.DataContext.EFCore\\Configurations\\OrderConfigurations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T05:53:01.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderDetailFrontModel.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.FronEndCode\\Models\\OrderDetailFrontModel.cs",
+              "RelativeDocumentMoniker": "Billing.Sales.FronEndCode\\Models\\OrderDetailFrontModel.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.FronEndCode\\Models\\OrderDetailFrontModel.cs",
+              "RelativeToolTip": "Billing.Sales.FronEndCode\\Models\\OrderDetailFrontModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T05:42:45.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.FronEndCode\\Models\\OrderCreateDto.cs",
+              "RelativeDocumentMoniker": "Billing.Sales.FronEndCode\\Models\\OrderCreateDto.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.FronEndCode\\Models\\OrderCreateDto.cs",
+              "RelativeToolTip": "Billing.Sales.FronEndCode\\Models\\OrderCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T05:42:31.397Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "OrderAggregate.cs",
-              "DocumentMoniker": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Aggregates\\OrderAggregate.cs",
-              "RelativeDocumentMoniker": "Billing.Sales.Backend.BusinessObjects\\Aggregates\\OrderAggregate.cs",
-              "ToolTip": "C:\\Users\\Damian\\Desktop\\PW\\Clon1\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\Aggregates\\OrderAggregate.cs",
-              "RelativeToolTip": "Billing.Sales.Backend.BusinessObjects\\Aggregates\\OrderAggregate.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\POCOEntities\\Order.cs",
+              "RelativeDocumentMoniker": "Billing.Sales.Backend.BusinessObjects\\POCOEntities\\Order.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\POCOEntities\\Order.cs",
+              "RelativeToolTip": "Billing.Sales.Backend.BusinessObjects\\POCOEntities\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T16:32:33.608Z"
+              "WhenOpened": "2025-12-06T05:41:37.777Z"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Business.Rules\\Dtos\\CreateBill\\CreateProductDto.cs",
+              "RelativeDocumentMoniker": "Billing.Sales.Business.Rules\\Dtos\\CreateBill\\CreateProductDto.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Business.Rules\\Dtos\\CreateBill\\CreateProductDto.cs",
+              "RelativeToolTip": "Billing.Sales.Business.Rules\\Dtos\\CreateBill\\CreateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T05:41:22.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Business.Rules\\Dtos\\CreateBill\\CreateOrderDto.cs",
+              "RelativeDocumentMoniker": "Billing.Sales.Business.Rules\\Dtos\\CreateBill\\CreateOrderDto.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Business.Rules\\Dtos\\CreateBill\\CreateOrderDto.cs",
+              "RelativeToolTip": "Billing.Sales.Business.Rules\\Dtos\\CreateBill\\CreateOrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T05:31:38.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\ValueObjects\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "Billing.Sales.Backend.BusinessObjects\\ValueObjects\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.Backend.BusinessObjects\\ValueObjects\\OrderDetail.cs",
+              "RelativeToolTip": "Billing.Sales.Backend.BusinessObjects\\ValueObjects\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T05:31:23.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderModel.cs",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.FronEndCode\\Models\\OrderModel.cs",
+              "RelativeDocumentMoniker": "Billing.Sales.FronEndCode\\Models\\OrderModel.cs",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.FronEndCode\\Models\\OrderModel.cs",
+              "RelativeToolTip": "Billing.Sales.FronEndCode\\Models\\OrderModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T05:30:51.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.FronEndCode\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "Billing.Sales.FronEndCode\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.FronEndCode\\wwwroot\\index.html",
+              "RelativeToolTip": "Billing.Sales.FronEndCode\\wwwroot\\index.html",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-12-06T05:15:05.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BootstrapHelpers.js",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.FronEndCode\\wwwroot\\js\\BootstrapHelpers.js",
+              "RelativeDocumentMoniker": "Billing.Sales.FronEndCode\\wwwroot\\js\\BootstrapHelpers.js",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.FronEndCode\\wwwroot\\js\\BootstrapHelpers.js",
+              "RelativeToolTip": "Billing.Sales.FronEndCode\\wwwroot\\js\\BootstrapHelpers.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-06T05:14:26.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.razor",
+              "DocumentMoniker": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.FronEndCode\\Pages\\Orders\\Order.razor",
+              "RelativeDocumentMoniker": "Billing.Sales.FronEndCode\\Pages\\Orders\\Order.razor",
+              "ToolTip": "C:\\Users\\MY PC\\source\\repos\\Nuevo Billing\\Clon 3\\Proyecto-de-Wb\\Billing.Sales.FronEndCode\\Pages\\Orders\\Order.razor",
+              "RelativeToolTip": "Billing.Sales.FronEndCode\\Pages\\Orders\\Order.razor",
+              "ViewState": "AgIAAAQDAAAAAAAAAAAQwCcDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T05:04:29.839Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 874,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
